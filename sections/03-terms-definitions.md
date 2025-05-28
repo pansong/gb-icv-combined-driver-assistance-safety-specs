@@ -2,7 +2,7 @@
 
 GB/T 40429、GB/T 44461.1、GB/T 44461.2、GB/T 34590.1界定的以及下列术语和定义适用于本文件。
 
-## 3.1
+### 3.1
 
 **组合驾驶辅助系统 combined driver assistance system**
 
@@ -10,7 +10,7 @@ GB/T 40429、GB/T 44461.1、GB/T 44461.2、GB/T 34590.1界定的以及下列术�
 
 **注：** 在不引起混淆的情况下，本文件中的“组合驾驶辅助系统”简称为“系统”。
 
-## 3.2
+### 3.2
 
 **组合驾驶辅助功能 combined driver assistance function**
 
@@ -18,13 +18,13 @@ GB/T 40429、GB/T 44461.1、GB/T 44461.2、GB/T 34590.1界定的以及下列术�
 
 **注：** 在不引起混淆的情况下，本文件中的“组合驾驶辅助功能”简称为“功能”。
 
-## 3.3
+### 3.3
 
 **车道巡航控制功能 lane cruise manoeuvre function**
 
 根据车辆周边行驶环境，对车辆持续进行横向和纵向运动控制，辅助驾驶员控制车辆在车道内或无车道边线的道路上巡航行驶的功能。
 
-## 3.4
+### 3.4
 
 **非车道巡航控制功能 non-lane cruise manoeuvre function**
 
@@ -32,129 +32,176 @@ GB/T 40429、GB/T 44461.1、GB/T 44461.2、GB/T 34590.1界定的以及下列术�
 
 **注：** 驾驶员触发的换道控制、驾驶员确认的换道控制、系统触发的换道控制、跨车道线障碍物绕行、路口通行（直行、左转弯、右转弯、掉头）、环岛通行（驶入、环行、驶出）功能属于非车道巡航控制功能。
 
-驾驶员触发的换道控制功能 driver-initiated lane change function
+### 3.5
+
+**驾驶员触发的换道控制功能 driver-initiated lane change function**
 
 在驾驶员触发换道过程后，根据车辆周边行驶环境，对车辆持续进行横向和纵向运动控制，辅助驾驶员在车道间执行换道过程的功能。
 
-驾驶员确认的换道控制功能 driver-confirmed lane change function
+### 3.6
+
+**驾驶员确认的换道控制功能 driver-confirmed lane change function**
 
 在驾驶员对系统发出的换道意图进行确认后，根据车辆周边行驶环境，对车辆持续进行横向和纵向运动控制，辅助驾驶员在车道间执行换道过程的功能。
 
-系统触发的换道控制功能 system-initiated lane change function
+### 3.7
+
+**系统触发的换道控制功能 system-initiated lane change function**
 
 在系统发出换道意图后，若驾驶员没有取消，则根据车辆周边行驶环境，对车辆持续进行横向和纵向运动控制，辅助驾驶员在车道间执行换道过程的功能。
 
-跨车道线障碍物绕行功能 navigating around obstacle by lane crossing function
+### 3.8
+
+**跨车道线障碍物绕行功能 navigating around obstacle by lane crossing function**
 
 当本车道内存在阻碍车辆向前行驶的障碍物或其他道路使用者时，根据车辆周边行驶环境，对车辆持续进行横向和纵向运动控制，辅助驾驶员控制车辆跨越车道边线行驶，在避免碰撞风险后回到原车道的功能。
 
-风险减缓功能 risk mitigation function；RMF
+### 3.9
+
+**风险减缓功能 risk mitigation function；RMF**
 
 在驾驶员持续不响应驾驶员脱离提示或警告信号的情况下，根据车辆周边行驶环境，对车辆持续进行横向和纵向运动控制，辅助驾驶员将车辆停在目标停车区域内的功能。
 
-驾驶员脱离 driver disengagement
+### 3.10
+
+**驾驶员脱离 driver disengagement**
 
 由系统确认的驾驶员当前无法安全地执行相应的动态驾驶任务的状态。
 
-1. 驾驶员脱离包括手部脱离和视线脱离。
+**注：** 驾驶员脱离包括手部脱离和视线脱离。
 
-手握方向盘提示 hands on request；HOR
+### 3.11
+
+**手握方向盘提示 hands on request；HOR**
 
 用来提示驾驶员手握方向盘的信号。
 
-视线回归提示 eyes on request；EOR
+### 3.12
+
+**视线回归提示 eyes on request；EOR**
 
 用来提示驾驶员将视觉注意力回归到驾驶任务相关区域的信号。
 
-立即控制警告 direct control alert；DCA
+### 3.13
+
+**立即控制警告 direct control alert；DCA**
 
 用来提示驾驶员至少立即恢复执行车辆横向运动控制的信号。
 
-设计运行范围 operational design domain；ODD
+### 3.14
+
+**设计运行范围 operational design domain；ODD**
 
 系统设计时确定的适用于其功能运行的外部环境条件。
 
-1. 典型的外部环境条件有道路、交通、天气、光照等。
+**注：** 典型的外部环境条件有道路、交通、天气、光照等。
+[来源：GB/T 40429-2021，2.11，有修改]
 
-[来源：GB/T 40429-2021,2.11,有修改]
+### 3.15
 
-设计运行条件 operational design condition；ODC
+**设计运行条件 operational design condition；ODC**
 
 系统设计时确定的适用于其功能运行的各类条件的总称，包括设计运行范围、车辆状态、驾乘人员状态及其他必要条件。
 
-[来源：GB/T 40429-2021,2.12,有修改]
+[来源：GB/T 40429-2021，2.12，有修改]
 
-车道 lane
+### 3.16
+
+**车道 lane**
 
 不需要改变行驶路径的没有任何固定障碍物干扰的行驶区域。
 
-[来源：GB/T 44461.1-2024,3.2]
+[来源：GB/T 44461.1-2024，3.2]
 
-车道边线
+### 3.17
+
+**车道边线**
 
 用于确定车道边界的可见道路交通标线。
 
-[来源：GB/T 44461.1-2024,3.3]
+[来源：GB/T 44461.1-2024，3.3]
 
-本车道 original lane
+### 3.18
+
+**本车道 original lane**
 
 系统未执行任何非车道巡航控制前车辆所在的车道。
 
-[来源：GB/T 44461.2-2024,3.3,有修改]
+[来源：GB/T 44461.2-2024，3.3，有修改]
 
-目标车道 target lane
+### 3.19
+
+**目标车道 target lane**
 
 车辆意图驶入的其他车道。
 
-[来源：GB/T 44461.2-2024,3.4，有修改]
+[来源：GB/T 44461.2-2024，3.4，有修改]
 
-目标车道边线 lane marking of target lane
+### 3.20
+
+**目标车道边线 lane marking of target lane**
 
 本车道与目标车道的公共车道边线。
 
-[来源：GB/T 44461.2-2024,3.2]
+[来源：GB/T 44461.2-2024，3.2]
 
-换道过程 lane change procedure
+### 3.21
+
+**换道过程 lane change procedure**
 
 从驾驶员或系统触发换道且转向信号灯首次开启，至车辆完成换道且转向信号灯自动关闭或系统发出换道完成提示信号的过程。
 
-[来源：GB/T 44461.2-2024,3.5,有修改]
+[来源：GB/T 44461.2-2024，3.5，有修改]
 
-换道准备阶段 lane change preparation phase
+#### 3.21.1
+
+**换道准备阶段 lane change preparation phase**
 
 换道过程触发至车辆距目标车道最近的前轮外侧接触到本车道侧目标车道边线的阶段。
 
-[来源：GB/T 44461.2-2024,3.5.1]
+[来源：GB/T 44461.2-2024，3.5.1]
 
-换道执行阶段 lane change manoeuvre phase
+#### 3.21.2
+
+**换道执行阶段 lane change manoeuvre phase**
 
 车辆完成换道准备阶段至后轮完全跨越目标车道边线的阶段。
 
-[来源：GB/T 44461.2-2024,3.5.2]
+[来源：GB/T 44461.2-2024，3.5.2]
 
-换道完成阶段 lane change completion phase
+#### 3.21.3
+
+**换道完成阶段 lane change completion phase**
 
 车辆完成换道执行阶段至转向信号灯自动关闭或系统发出换道完成提示信号的阶段。
 
-[来源：GB/T 44461.2-2024,3.5.3]
+[来源：GB/T 44461.2-2024，3.5.3]
 
-后向距离 rear distance of vehicle and approaching vehicle
+### 3.22
+
+**后向距离 rear distance of vehicle and approaching vehicle**
 
 车辆最后端与目标车道后向接近车辆最前端沿着车道延伸方向之间实时距离。
 
-1. 见图1。
+**注：** 见图1。
 
-![](data:image/png;base64...)
+<div align="center">
+  <img src="../images/figures/figure-01.png" alt="图1" style="width: 9.58cm; height: 5.73cm;">
+  <br>
+  <strong>图1 后向距离示意图</strong>
+</div>
 
-1. 后向距离示意图
+[来源：GB/T 44461.2-2024，3.7]
 
-[来源：GB/T 44461.2-2024,3.7]
+### 3.23
 
-感知探测范围 detection range
+**感知探测范围 detection range**
 
 考虑车载传感器在车辆生命周期内由于老化导致性能下降等情况，系统能够可靠地探测目标的距离。
 
-设计运行车速范围 designed speed range
+### 3.24
+
+**设计运行车速范围 designed speed range**
 
 系统或功能设计时确定的能够处于激活状态的车速范围。
 
