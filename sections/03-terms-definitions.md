@@ -186,7 +186,7 @@ GB/T 40429、GB/T 44461.1、GB/T 44461.2、GB/T 34590.1界定的以及下列术�
 **注：** 见图1。
 
 <div align="center">
-  <img src="../images/figures/figure-01.png" alt="图1" style="width: 9.58cm; height: 5.73cm;">
+  <img src="../images/figures/figure-01.png" alt="图1">
   <br>
   <strong>图1 后向距离示意图</strong>
 </div>
