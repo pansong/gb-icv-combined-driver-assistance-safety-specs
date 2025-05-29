@@ -1,98 +1,581 @@
 ## 6. 道路试验方法
-      1. 试验道路
+
+### 6.1 试验道路
 
 试验道路应连续，且道路环境要素应符合表11的要求。
 
-1. 道路环境要素要求
+<div align="center">
+  <strong>表11 道路环境要素要求</strong>
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **静态要素** | | | | | | | | |
-| **一级要素** | **二级要素** | **三级要素** | **四级要素** | | **要素要求** | **I型道路环境速路** | | **II型道路环境** |
-| 道路 | 道路几何 | 平面 | 弯道半径 | | 大于400 m，且不大于650 m | √ | | / |
-| 不大于400 m | / | | √ |
-| 横断面 | 分隔（中央） | | / | √ | | √ |
-| 非机动车道 | | / | / | | √ |
-| 路侧隔离 | | / | √ | | / |
-| 纵断面 | 坡度 | | 3%-6% | √ | | √ |
-| 大于6% | / | | √ |
-| 不同材质的路面 | | / | / | | √ |
-| 道路交叉 | 立体交叉 | 互通式立交 | | / | √ | | / |
-| 匝道 | 入口匝道 | | / | √ | | / |
-| 出口匝道 | | / | √ | | / |
-| 平面交叉 | 有信号灯控制的交叉路口 | | / | / | | √ |
-| 无信号灯控制的交叉路口 | | / | / | | √ |
-| 环状路口 | 具有信号装置的环形路口 | | / | / | | √ |
-| 无信号装置的环形路口 | | / | / | | √ |
-| 车道特征 | 道路标线 | 标线质量 | | 车道标线清晰 | √ | | √ |
-| 车道标线不清晰 | / | | √ |
-| 无车道标线 | | / | / | | √ |
-| 标线类型 | | 虚线 | √ | | √ |
-| 实线 | √ | | √ |
-| 虚实线 | √ | | √ |
-| 人行横道 | / | | √ |
-| 网状线 | / | | √ |
-| 可变导向车道线 | / | | √ |
-| 潮汐车道线 | / | | √ |
-| 道路出入口标线 | √ | | / |
-| 停止线 | / | | √ |
-| 车道类型 | 客车道 | | / | √ | | / |
-| 混行车道 | | / | √ | | / |
-| 机动车道 | | / | / | | √ |
-| 非机动车道 | | / | / | | √ |
-| 机非混行车道 | | / | / | | √ |
-| 右转专用道 | | / | / | | √ |
-| 公交专用车道 | | / | / | | √ |
-| 左转待转区 | | / | / | | √ |
-| 车道数 | 同向双车道 | | / | √ | | / |
-| 同向多车道 | | / | √ | | / |
-| 双向双车道 | | / | / | | √ |
-| 双向多车道 | | / | / | | √ |
-| 单向单行道 | | / | / | | √ |
-| 双向单车道 | | / | / | | √ |
-| 停车区域 | 服务区/停车区 | | / | √ | | / |
-| 公交车站 | | / | / | | √ |
-| 路边停车区 | | / | / | | √ |
-| 道路设施 | 交通控制设施 | 交通标志 | 永久性标志 | | 限速120 km/h | √ | | / |
-| 限速80 km/h | √ | | √ |
-| 解除限速 | √ | | √ |
-| 可变信息标志 | / | | / | √ | | √ |
-| 交通信号灯 | 车道信号灯 | | / | √ | | √ |
-| 特殊设施 | 涵洞 | / | | / | / | | √ |
-| 桥梁 | / | | / | √ | | √ |
-| 隧道 | 最小长度 | | 100 m | √ | | √ |
-| 井盖/减速带 | / | | / | / | | √ |
-| 限高设施 | / | | / | / | | √ |
-| 限宽设施 | / | | / | / | | √ |
-| 视距遮挡物 | / | | / | / | | √ |
-| 龙门架 | / | | / | √ | | / |
-| 防眩设施 | / | | / | √ | | / |
-| 视线诱导设施 | / | | / | √ | | / |
-| 收费站 | / | | / | √ | | / |
-| **动态要素** | | | | | | | | |
-| **一级要素** | **二级要素** | **三级要素** | | **四级要素** | **要素要求** | | **Ⅰ型道路环境** | **Ⅱ型道路环境** |
-| 交通运行状态 | 区间路段交通拥堵度 | 区间路段畅通 | | / | 区间路段交通拥堵度应按照GA/T 115-2020 第6章描述的方法进行评价 | | √ | √ |
-| 区间路段轻度拥堵 | | √ | √ |
-| 区间路段中度拥堵 | | √ | √ |
-| 区间路段严重拥堵 | | √ | √ |
-| 行人流量 | 高密度 | | / | / | | / | √ |
-| 目标物 | 机动车 | 汽车 | | M类 | / | | √ | √ |
-| N类 | / | |
-| O类 | / | |
-| 摩托车 | | / | / | | / |
-| 非机动车 | 人力车 | | 自行车 | / | | / | √ |
-| 行人 | / | | / | / | | / | √ |
-| 天气环境 | 自然光源 | 光照度 | | 差 | 小于50 lux | | √ | √ |
-| 光照方向 | | 逆光 | / | | √ | √ |
-| 人工光源 | 路灯 | | / | / | | √ | √ |
-| 无路灯 | | / | / | | √ | √ |
-| 对向车灯 | | / | / | | √ | √ |
-| **一级要素** | **二级要素** | **三级要素** | **四级要素** | | **要素要求** | **Ⅰ型道路环境** | | **Ⅱ型道路环境** |
-| 数字信息 | 位置信号 | / | / | | / | √ | | √ |
-| 无线通信 | 蜂窝网络信号 | / | | / | √ | | √ |
-| V2X信号a | / | | / | √ | | √ |
-| 1. “√”表示各类型道路环境需要具备的要素。 2. “/”表示该要素在相应层级不作要求。 | | | | | | | | |
-| 1. 如试验车辆的组合驾驶辅助功能基于V2X（“V2X”是指一种车辆与外界通信的技术），则道路环境应包括该环境要素，否则道路环境可不具备该环境要素。 | | | | | | | | |
+<table>
+<thead>
+  <tr>
+    <th align="center" colspan="7"><strong>静态要素</strong></th>
+  </tr>
+  <tr>
+    <th align="center"><strong>一级要素</strong></th>
+    <th align="center"><strong>二级要素</strong></th>
+    <th align="center"><strong>三级要素</strong></th>
+    <th align="center"><strong>四级要素</strong></th>
+    <th align="center"><strong>要素要求</strong></th>
+    <th align="center"><strong>I型道路环境</strong></th>
+    <th align="center"><strong>II型道路环境</strong></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center" rowspan="44">道路</td>
+    <td align="center" rowspan="8">道路几何</td>
+    <td align="center" rowspan="2">平面</td>
+    <td align="center" rowspan='2'>弯道半径</td>
+    <td align="center">大于400 m，且不大于650 m</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">不大于400 m</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="3">横断面</td>
+    <td align="center">分隔（中央）</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">非机动车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">路侧隔离</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="3">纵断面</td>
+    <td align="center" rowspan="2">坡度</td>
+    <td align="center">3%-6%</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">大于6%</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">不同材质的路面</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="7">道路交叉</td>
+    <td align="center">立体交叉</td>
+    <td align="center">互通式立交</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="2">匝道</td>
+    <td align="center">入口匝道</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">出口匝道</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="2">平面交叉</td>
+    <td align="center">有信号灯控制的交叉路口</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">无信号灯控制的交叉路口</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="2">环状路口</td>
+    <td align="center">具有信号装置的环形路口</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">无信号装置的环形路口</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="29">车道特征</td>
+    <td align="center" rowspan="12">道路标线</td>
+    <td align="center" rowspan="2">标线质量</td>
+    <td align="center">车道标线清晰</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">车道标线不清晰</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">无车道标线</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="9">标线类型</td>
+    <td align="center">虚线</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">实线</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">虚实线</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">人行横道</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">网状线</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">可变导向车道线</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">潮汐车道线</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">道路出入口标线</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">停止线</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="8">车道类型</td>
+    <td align="center">客车道</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">混行车道</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">机动车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">非机动车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">机非混行车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">右转专用道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">公交专用车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">左转待转区</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="6">车道数</td>
+    <td align="center">同向双车道</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">同向多车道</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">双向双车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">双向多车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">单向单行道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">双向单车道</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="3">停车区域</td>
+    <td align="center">服务区/停车区</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">公交车站</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">路边停车区</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="16">道路设施</td>
+    <td align="center" rowspan="5">交通控制设施</td>
+    <td align="center" rowspan="3">交通标志</td>
+    <td align="center" rowspan="3">永久性标志</td>
+    <td align="center">限速120 km/h</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">限速80 km/h</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">解除限速</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">可变信息标志</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">交通信号灯</td>
+    <td align="center">车道信号灯</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="11">特殊设施</td>
+    <td align="center">涵洞</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">桥梁</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">隧道</td>
+    <td align="center">最小长度</td>
+    <td align="center">100 m</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">井盖/减速带</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">限高设施</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">限宽设施</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">视距遮挡物</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">龙门架</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">防眩设施</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">视线诱导设施</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">收费站</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <th align="center" colspan="7"><strong>动态要素</strong></th>
+  </tr>
+  <tr>
+    <th align="center"><strong>一级要素</strong></th>
+    <th align="center"><strong>二级要素</strong></th>
+    <th align="center"><strong>三级要素</strong></th>
+    <th align="center"><strong>四级要素</strong></th>
+    <th align="center"><strong>要素要求</strong></th>
+    <th align="center"><strong>I型道路环境</strong></th>
+    <th align="center"><strong>II型道路环境</strong></th>
+  </tr>
+  <tr>
+    <td align="center" rowspan="5">交通运行状态</td>
+    <td align="center" rowspan="4">区间路段交通拥堵度</td>
+    <td align="center">区间路段畅通</td>
+    <td align="center" rowspan="4">/</td>
+    <td align="center" rowspan="4">区间路段交通拥堵度应按照GA/T 115-2020 第6章描述的方法进行评价</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">区间路段轻度拥堵</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">区间路段中度拥堵</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">区间路段严重拥堵</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">行人流量</td>
+    <td align="center">高密度</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="6">目标物</td>
+    <td align="center" rowspan="4">机动车</td>
+    <td align="center" rowspan="3">汽车</td>
+    <td align="center">M类</td>
+    <td align="center">/</td>
+    <td align="center" rowspan="3">√</td>
+    <td align="center" rowspan="4">√</td>
+  </tr>
+  <tr>
+    <td align="center">N类</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">O类</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">摩托车</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+  </tr>
+  <tr>
+    <td align="center">非机动车</td>
+    <td align="center">人力车</td>
+    <td align="center">自行车</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">行人</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="5">天气环境</td>
+    <td align="center" rowspan="2">自然光源</td>
+    <td align="center">光照度</td>
+    <td align="center">差</td>
+    <td align="center">小于50 lux</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">光照方向</td>
+    <td align="center">逆光</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="3">人工光源</td>
+    <td align="center">路灯</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">无路灯</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">对向车灯</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <th align="center"><strong>一级要素</strong></th>
+    <th align="center"><strong>二级要素</strong></th>
+    <th align="center"><strong>三级要素</strong></th>
+    <th align="center"><strong>四级要素</strong></th>
+    <th align="center"><strong>要素要求</strong></th>
+    <th align="center"><strong>I型道路环境</strong></th>
+    <th align="center"><strong>II型道路环境</strong></th>
+  </tr>
+  <tr>
+    <td align="center" rowspan="3">数字信息</td>
+    <td align="center">位置信号</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="2">无线通信</td>
+    <td align="center">蜂窝网络信号</td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center">V2X信号 <sup>a</sup></td>
+    <td align="center">/</td>
+    <td align="center">/</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+  <th align="left" colspan="7">
+    <strong>注1：</strong>
+    <span style="font-weight: normal;">"√"表示各类型道路环境需要具备的要素。</span>
+    <br>
+    <strong>注2：</strong>
+    <span style="font-weight: normal;">“/”表示该要素在相应层级不作要求。</span>
+  </th>
+  </tr>
+  <th align="left" colspan="7">
+    <span style="font-weight: normal;"><sup>a</sup>	如试验车辆的组合驾驶辅助功能基于V2X（“V2X”是指一种车辆与外界通信的技术），则道路环境应包括该环境要素，否则道路环境可不具备该环境要素。</span>
+  </th>
+  </tr>
+</tbody>
+</table>
+
+</div>
+
+
+
 
 * + 1. 试验人员及设备
        1. 试验人员
