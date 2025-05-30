@@ -1,325 +1,1153 @@
 ## 附录F （规范性） 数据记录要求
-   1. 技术要求
-      1. 总体要求
+
+### F.1 技术要求
+
+#### F.1.1 总体要求
 
 组合驾驶辅助数据记录系统分为I型系统和II型系统。
 
-M1类和N1类车辆配备的组合驾驶辅助数据记录系统应为I型或II型系统，M2、M3、N2和N3车辆配备的组合驾驶辅助数据记录系统应为II型系统，相关要求如下：
+M₁类和N₁类车辆配备的组合驾驶辅助数据记录系统应为I型或II型系统，M₂、M₃、N₂和N₃车辆配备的组合驾驶辅助数据记录系统应为II型系统，相关要求如下：
 
-1. I型系统应满足本文件F.1.2、F.1.4至F.1.9的要求；
-2. II型系统应满足本文件F.1.3至F.1.9的要求。
-   * 1. I型系统数据记录要求
-        1. 一般要求
-           1. 当组合驾驶辅助系统激活期间，I型系统应至少记录如下事件数据：
-3. 时间段事件：当发生符合F.1.2.2.1要求的碰撞事件或符合F.1.2.3.1要求的有碰撞风险事件时，组合驾驶辅助数据记录系统应记录符合F.1.4.2要求的数据元素；
-4. 时间戳事件：当组合驾驶辅助系统进入激活状态时、退出时、发出HOR提示信号时、取消HOR提示或警告信号、发出EOR提示信号时、取消EOR提示或警告信号、发出DCA时、开始执行RMF时、发生组合驾驶辅助系统严重失效、车辆严重失效和用户操纵组合驾驶辅助系统退出装置时，组合驾驶辅助数据记录系统应记录符合表F.1要求的数据元素。
-   * + - 1. 当前的时间段事件数据记录正在进行时，若在此期间发生时间段事件，可不完整记录后续发生的时间段事件相关数据，但应保证至少按照表F.1的要求记录后续发生的时间段事件的相关数据。
-         2. 由于失效导致数据不可获取时，组合驾驶辅助数据记录系统可不完全记录时间戳事件和时间段事件数据。车辆制造商应提供相关文档进行说明。
-       1. 碰撞事件
-          1. 触发条件
+> ———— I型系统应满足本文件F.1.2、F.1.4至F.1.9的要求；
+
+> ———— II型系统应满足本文件F.1.3至F.1.9的要求。
+
+#### F.1.2 I型系统数据记录要求
+
+##### F.1.2.1 一般要求
+
+**F.1.2.1.1** 当组合驾驶辅助系统激活期间，I型系统应至少记录如下事件数据：
+
+> a) 时间段事件：当发生符合F.1.2.2.1要求的碰撞事件或符合F.1.2.3.1要求的有碰撞风险事件时，组合驾驶辅助数据记录系统应记录符合F.1.4.2要求的数据元素；
+
+> b) 时间戳事件：当组合驾驶辅助系统进入激活状态时、退出时、发出HOR提示信号时、取消HOR提示或警告信号、发出EOR提示信号时、取消EOR提示或警告信号、发出DCA时、开始执行RMF时、发生组合驾驶辅助系统严重失效、车辆严重失效和用户操纵组合驾驶辅助系统退出装置时，组合驾驶辅助数据记录系统应记录符合表F.1要求的数据元素。
+
+**F.1.2.1.2** 当前的时间段事件数据记录正在进行时，若在此期间发生时间段事件，可不完整记录后续发生的时间段事件相关数据，但应保证至少按照表F.1的要求记录后续发生的时间段事件的相关数据。
+
+**F.1.2.1.3** 由于失效导致数据不可获取时，组合驾驶辅助数据记录系统可不完全记录时间戳事件和时间段事件数据。车辆制造商应提供相关文档进行说明。
+
+##### F.1.2.2 碰撞事件
+
+###### F.1.2.2.1 触发条件
 
 当车辆符合GB 39732—2020中4.1.1的要求时，该事件应被记录。
 
-* + - * 1. 事件起点和终点
+###### F.1.2.2.2 事件起点和终点
 
 碰撞事件起点和终点应符合如下要求：
 
-a) 事件起点：碰撞事件起点应符合GB 39732—2020中4.1.3的要求；
+> a) 事件起点：碰撞事件起点应符合GB 39732—2020中4.1.3的要求；
 
-b) 事件终点：碰撞事件终点应符合GB 39732—2020中4.1.4的要求。
+> b) 事件终点：碰撞事件终点应符合GB 39732—2020中4.1.4的要求。
 
-* + - * 1. 事件记录起点和终点
+###### F.1.2.2.3 事件记录起点和终点
 
 碰撞事件记录起点和终点应至少符合如下要求：
 
-a) 事件记录起点：事件起点前15 s或组合驾驶辅助系统激活时刻，两者取较晚时刻；
+> a) 事件记录起点：事件起点前15 s或组合驾驶辅助系统激活时刻，两者取较晚时刻；
 
-b) 事件记录终点：事件起点后5 s、组合驾驶辅助系统退出时刻或事件终点，三者取较早时刻。
+> b) 事件记录终点：事件起点后5 s、组合驾驶辅助系统退出时刻或事件终点，三者取较早时刻。
 
-* + - * 1. 事件锁定条件
+###### F.1.2.2.4 事件锁定条件
 
 碰撞事件锁定条件应至少符合GB 39732—2020中4.1.2的要求。
 
-1. 行人保护装置展开可不定义为锁定事件。
-   * + 1. 有碰撞风险事件
-          1. 触发条件
+**注：** 行人保护装置展开可不定义为锁定事件。
+
+##### F.1.2.3 有碰撞风险事件
+
+###### F.1.2.3.1 触发条件
 
 组合驾驶辅助数据记录系统应至少将以下两种方式之一作为有碰撞风险事件的触发条件：
 
-——当组合驾驶辅助系统请求的纵向减速度大于5 m/s2时；
+> ———— 当组合驾驶辅助系统请求的纵向减速度大于5 m/s²时；
 
-——当符合GB 轻型汽车自动紧急制动系统技术要求及试验方法或GB 重型汽车自动紧急制动系统技术要求及试验方法的AEBS启动紧急制动时。
+> ———— 当符合GB 轻型汽车自动紧急制动系统技术要求及试验方法或GB 重型汽车自动紧急制动系统技术要求及试验方法的AEBS启动紧急制动时。
 
-1. 允许组合驾驶辅助数据记录系统增加其他的条件作为有碰撞风险事件的触发条件，例如更低的请求的纵向减速度。
-   * + - 1. 事件起点和终点
+> **注：** 允许组合驾驶辅助数据记录系统增加其他的条件作为有碰撞风险事件的触发条件，例如更低的请求的纵向减速度。
 
-当有碰撞风险事件的触发条件为组合驾驶辅助系统请求的纵向减速度大于5 m/s2时，则有碰撞风险事件起点和终点应符合如下要求：
+###### F.1.2.3.2 事件起点和终点
 
-a) 事件起点：组合驾驶辅助系统请求的纵向减速度大于5 m/s2的时刻；
+当有碰撞风险事件的触发条件为组合驾驶辅助系统请求的纵向减速度大于5 m/s²时，则有碰撞风险事件起点和终点应符合如下要求：
 
-b) 事件终点：本次事件起点后组合驾驶辅助系统请求的纵向减速度不大于5 m/s2的时刻。
+> a) 事件起点：组合驾驶辅助系统请求的纵向减速度大于5 m/s²的时刻；
+
+> b) 事件终点：本次事件起点后组合驾驶辅助系统请求的纵向减速度不大于5 m/s²的时刻。
 
 当有碰撞风险事件的触发条件为GB 轻型汽车自动紧急制动系统技术要求及试验方法或GB 重型汽车自动紧急制动系统技术要求及试验方法的AEB启动紧急制动时，该有碰撞风险事件起点和终点应符合如下要求：
 
-a) 事件起点：车辆AEBS启动紧急制动的时刻；
+> a) 事件起点：车辆AEBS启动紧急制动的时刻；
 
-b) 事件终点：车辆AEBS结束紧急制动的时刻。
+> b) 事件终点：车辆AEBS结束紧急制动的时刻。
 
-* + - * 1. 事件记录起点和终点
+###### F.1.2.3.3 事件记录起点和终点
 
 有碰撞风险事件记录起点和终点应至少符合如下要求：
 
-a) 事件记录起点：事件起点前15 s或组合驾驶辅助系统激活时刻，两者取较晚时刻；
+> a) 事件记录起点：事件起点前15 s或组合驾驶辅助系统激活时刻，两者取较晚时刻；
 
-b) 事件记录终点：事件起点后5 s、组合驾驶辅助系统退出时刻或事件终点，三者取较早时刻。
+> b) 事件记录终点：事件起点后5 s、组合驾驶辅助系统退出时刻或事件终点，三者取较早时刻。
 
-* + 1. II型系统数据记录要求
+#### F.1.3 II型系统数据记录要求
 
 在组合驾驶辅助系统激活期间，II型系统应至少记录如下数据：
 
-a) 在实时记录起点时刻记录符合表F.1要求的数据元素；
+> a) 在实时记录起点时刻记录符合表F.1要求的数据元素；
 
-b) 实时连续记录符合表F.2至表F.5要求的数据元素；
+> b) 实时连续记录符合表F.2至表F.5要求的数据元素；
 
-c) 时间戳事件：当组合驾驶辅助系统进入激活状态时、退出时、发出HOR提示信号时、取消HOR提示或警告信号、发出EOR提示信号时、取消EOR提示或警告信号、发出DCA时、开始执行RMF时、发生组合驾驶辅助系统严重失效、车辆严重失效和用户操纵组合驾驶辅助系统退出装置时，组合驾驶辅助数据记录系统应记录符合表F.1要求的数据元素。
+> c) 时间戳事件：当组合驾驶辅助系统进入激活状态时、退出时、发出HOR提示信号时、取消HOR提示或警告信号、发出EOR提示信号时、取消EOR提示或警告信号、发出DCA时、开始执行RMF时、发生组合驾驶辅助系统严重失效、车辆严重失效和用户操纵组合驾驶辅助系统退出装置时，组合驾驶辅助数据记录系统应记录符合表F.1要求的数据元素。
 
-1. 实时记录起点时刻指组合驾驶辅助系统激活时刻。
+> **注：** 实时记录起点时刻指组合驾驶辅助系统激活时刻。
 
 由于失效导致数据不可获取时，组合驾驶辅助数据记录系统可不完全记录时间戳事件和时间段事件数据。车辆制造商应提供相关文档进行说明。
 
-* + 1. 数据元素要求
-       1. 数据元素分级
+#### F.1.4 数据元素要求
+
+##### F.1.4.1 数据元素分级
 
 组合驾驶辅助数据记录系统记录的数据元素应按照如下要求分为两级：
 
-——A级数据元素：配备组合驾驶辅助数据记录系统的车辆应记录的数据元素；
+> ———— A级数据元素：配备组合驾驶辅助数据记录系统的车辆应记录的数据元素；
 
-——B级数据元素：对于车辆状态及动态信息，B级数据元素指配备获取相关数据元素的传感器时则应记录的数据元素；对于组合驾驶辅助系统运行信息，B级数据元素相关信号处于被组合驾驶辅助系统调用时应记录的数据元素。
+> ———— B级数据元素：对于车辆状态及动态信息，B级数据元素指配备获取相关数据元素的传感器时则应记录的数据元素；对于组合驾驶辅助系统运行信息，B级数据元素相关信号处于被组合驾驶辅助系统调用时应记录的数据元素。
 
-* + - 1. 数据元素记录要求
-         1. 组合驾驶辅助数据记录系统应记录符合表F.1至表F.5中要求的数据元素。
+##### F.1.4.2 数据元素记录要求
 
-表F.1车辆及组合驾驶辅助数据记录系统基本信息
+**F.1.4.2.1** 组合驾驶辅助数据记录系统应记录符合表F.1至表F.5中要求的数据元素。
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 序号 | 数据名称 | 分级 | 最小记录频率 | 单位 | 最小记录数据能力  范围 | 最低记录分辨率 | 最低记录准确度 | 数据说明 |
-| 1 | 车辆识别代号（VIN） | A | 不适用 | 不适用 | 不适用 | 不适用 | 不应有误差 | 车辆识别代号格式应符合GB 16735的要求 |
-| 2 | 实现组合驾驶辅助数据记录系统功能的硬件型号 | A | 不适用 | 不适用 | 不适用 | 不适用 | 不应有误差 | — |
-| 3 | 实现组合驾驶辅助数据记录系统功能的硬件序列号 | A | 不适用 | 不适用 | 不适用 | 不适用 | 不应有误差 | — |
-| 4 | 组合驾驶辅助系统软件版本号 | A | 不适用 | 不适用 | 不适用 | 不适用 | 不应有误差 | —如果具备软件识别码，可记录组合驾驶辅助系统软件识别码 |
-| 5 | 组合驾驶辅助数据记录系统软件版本号 | A | 不适用 | 不适用 | 不适用 | 不适用 | 不应有误差 | —如果具备软件识别码，可记录组合驾驶辅助数据记录系统软件识别码 |
-| 6 | 事件类型编码 | A | 不适用 | 不适用 | 7：锁定碰撞  8：有碰撞风险  10：非锁定碰撞  20：组合驾驶辅助系统激活  21：组合驾驶辅助系统主动退出  22：用户操纵组合驾驶辅助系统退出  23：组合驾驶辅助系统发出HOR提示信号  24：组合驾驶辅助系统取消HOR提示或警告信号  25：组合驾驶辅助系统发出EOR提示信号  26：组合驾驶辅助系统取消EOR提示或警告信号  27：发出DCA  28：开始执行RMF  29：组合驾驶辅助系统严重失效  30：车辆严重失效 | 不适用 | 不应有误差 | — |
-| 7 | 时间（年） | A | 不适用 | 年 | 2023~2253 | 1 | 相对于协调世界时（UTC），不应存在秒级误差 | 应为UTC0时间 |
-| 8 | 时间（月） | A | 不适用 | 月 | 1~12 | 1 |
-| 9 | 时间（日） | A | 不适用 | 日 | 1~31 | 1 |
-| 10 | 时间（时） | A | 不适用 | 时 | 0~23 | 1 |
-| 11 | 时间（分） | A | 不适用 | 分 | 0~59 | 1 |
-| 12 | 时间（秒） | A | 不适用 | 秒 | 0~60 | 1 |
-| 13 | 累计行驶里程 | A | 不适用 | km | 0~600000 | 1 | ±1 | — |
-| 14 | 连续多次时间段事件的事件类型 | A | 不适用 | 不适用 | 7：非锁定碰撞  8：有碰撞风险  10：锁定碰撞 | 不适20用 | 不应有误差 | 仅针对连续时间段事件 |
-| 15 | 连续多次时间段事件的事件起点时刻（年） | A | 不适用 | 年 | 2023~2253 | 1 | 相对于协调世界时（UTC），不应存在秒级误差 | 仅针对连续时间段事件且应为UTC0时间 |
-| 16 | 连续多次时间段事件的事件起点时刻（月） | A | 不适用 | 月 | 1~12 | 1 |
-| 17 | 连续多次时间段事件的事件起点时刻（日） | A | 不适用 | 日 | 1~31 | 1 |
-| 18 | 连续多次时间段事件的事件起点时刻（时） | A | 不适用 | 时 | 0~23 | 1 |
-| 19 | 连续多次时间段事件的事件起点时刻（分） | A | 不适用 | 分 | 0~59 | 1 |
-| 20 | 连续多次时间段事件的事件起点时刻（秒） | A | 不适用 | 秒 | 0~60 | 1 |
-| 21 | 事件记录完整标志 | A | 不适用 | 不适用 | 1：完整  0：不完整 | 不适用 | 不应有误差 | 完整的事件数据集是否成功记录并存储在组合驾驶辅助数据记录系统中的状态，仅适用于时间段事件 |
-| 表F.1中的序号1至序号5数据元素应保证在数据读取时能够被正确读取。表F.1中序号6至序号13数据元素应至少在事件起点或实时记录起点时刻记录。表F.1中序号14至序号21数据元素应至少在事件记录终点时刻记录。  当能够单独记录连续多次时间段事件时，表F.1序号14至序号20数据元素可不记录。 | | | | | | | | |
+<div align="center">
+  <strong>表F.1 车辆及组合驾驶辅助数据记录系统基本信息</strong>
 
-表F.2 车辆状态及动态信息
+<table>
+<thead>
+  <tr>
+    <th align="center">序号</th>
+    <th align="center">数据名称</th>
+    <th align="center">分级</th>
+    <th align="center">最小记录频率</th>
+    <th align="center">单位</th>
+    <th align="center">最小记录数据能力范围</th>
+    <th align="center">最低记录分辨率</th>
+    <th align="center">最低记录准确度</th>
+    <th align="center">数据说明</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center">1</td>
+    <td align="center">车辆识别代号(VIN)</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">车辆识别代号格式应符合GB 16735的要求</td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td align="center">实现组合驾驶辅助数据记录系统功能的硬件型号</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td align="center">实现组合驾驶辅助数据记录系统功能的硬件序列号</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">4</td>
+    <td align="center">组合驾驶辅助系统软件版本号</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">一如果具备软件识别功能，可记录组合驾驶辅助系统软件识别码</td>
+  </tr>
+  <tr>
+    <td align="center">5</td>
+    <td align="center">组合驾驶辅助数据记录系统软件版本号</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">一如果具备软件识别功能，可记录组合驾驶辅助数据记录系统软件识别码</td>
+  </tr>
+  <tr>
+    <td align="center">6</td>
+    <td align="center">事件类型编码</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="left">7：锁定碰撞<br/>8：有碰撞风险<br/>10：非锁定碰撞<br/>20：组合驾驶辅助系统激活<br/>21：组合驾驶辅助系统主动退出<br/>22：用户操纵组合驾驶辅助系统退出<br/>23：组合驾驶辅助系统发出HOR提示信号<br/>24：组合驾驶辅助系统取消HOR提示或警告信号<br/>25：组合驾驶辅助系统发出EOR提示信号<br/>26：组合驾驶辅助系统取消EOR提示或警告信号<br/>27：发出DCA<br/>28：开始执行RMF<br/>29：组合驾驶辅助系统严重失效<br/>30：车辆严重失效</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">7</td>
+    <td align="center">时间（年）</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">年</td>
+    <td align="center">2023~2253</td>
+    <td align="center">1</td>
+    <td align="center" rowspan='6'>相对于协调世界时应用UTC0时间（UTC），不应存在秒级误差</td>
+    <td align="center" rowspan='6'>应为UTC0时间</td>
+  </tr>
+  <tr>
+    <td align="center">8</td>
+    <td align="center">时间（月）</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">月</td>
+    <td align="center">1~12</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">9</td>
+    <td align="center">时间（日）</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">日</td>
+    <td align="center">1~31</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">10</td>
+    <td align="center">时间（时）</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">时</td>
+    <td align="center">0~23</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">11</td>
+    <td align="center">时间（分）</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">分</td>
+    <td align="center">0~59</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">12</td>
+    <td align="center">时间（秒）</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">秒</td>
+    <td align="center">0~60</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">13</td>
+    <td align="center">累计行驶里程</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">km</td>
+    <td align="center">0~600000</td>
+    <td align="center">1</td>
+    <td align="center">±1</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">14</td>
+    <td align="center">连续条次时间段基准性的事件类型</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="left">7：非锁定碰撞<br/>8：有碰撞风险<br/>10：锁定碰撞</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">仅针对连续时间段基准性</td>
+  </tr>
+  <tr>
+    <td align="center">15</td>
+    <td align="center">连续多次时间段事件的事件起点时刻(年)</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">年</td>
+    <td align="center">2023~2253</td>
+    <td align="center">1</td>
+    <td align="center" rowspan='6'>相对于协调世界时(UTC)，不应存在秒级误差</td>
+    <td align="center" rowspan='6'>仅针对连续时间段事件性且应为UTC时间</td>
+  </tr>
+  <tr>
+    <td align="center">16</td>
+    <td align="center">连续多次时间段事件的事件起点时刻(月)</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">月</td>
+    <td align="center">1~12</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">17</td>
+    <td align="center">连续多次时间段事件的事件起点时刻(日)</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">日</td>
+    <td align="center">1~31</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">18</td>
+    <td align="center">连续多次时间段事件的事件起点时刻(时)</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">时</td>
+    <td align="center">0~23</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">19</td>
+    <td align="center">连续多次时间段事件的事件起点时刻(分)</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">分</td>
+    <td align="center">0~59</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">20</td>
+    <td align="center">连续多次时间段事件的事件起点时刻(秒)</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">秒</td>
+    <td align="center">0~60</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td align="center">21</td>
+    <td align="center">事件记录完整标志</td>
+    <td align="center">A</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="left">1：完整<br/>0：不完整</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="left">完整的事件数据集是否成功记录并存储在组合驾驶辅助数据记录系统中的状态，仅适用于时间段事件</td>
+  </tr>
+</tbody>
+</table>
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 序号 | 数据名称 | 分级 | 最小记录频率 | 单位 | 最小记录数据能力范围 | 最低记录  分辨率 | 最低  准确度 | 数据说明 |
-| 1 | 车辆速度 | A | 10 Hz | km/h | 0~240 | 1 | ±10% | 非仪表显示车速，应与车辆运行实际速度保持一致 |
-| 2 | 车辆横向加速度 | A | 10 Hz | m/s2 | -20~20 | 1 | 传感器探测范围的±10% | 当驾驶员坐在车内面向车辆行驶方向，从驾驶员角度看从左向右为正方向 |
-| 3 | 车辆纵向加速度 | A | 10 Hz | m/s2 | -20~20 | 1 | 传感器探测范围的±10% | 车辆向前行驶方向为正方向 |
-| 4 | 车辆横摆角速度a | A | 2 Hz | °/s | -75~75 | 0.1 | 传感器探测范围的±10% | 车辆相对Z轴的角度变化，顺时针为正方向 |
-| 5 | 车辆侧倾角速度a | B | 2 Hz | °/s | -75~75 | 1 | 传感器探测范围的±10% | 车辆相对X轴的角度变化，逆时针为正方向 |
-| 6 | 航向角 | B | 2 Hz | ° | -180~180 | 1 | ±5 | 正北方向为0°，顺时针方向为正方向 |
-| 7 | 转向盘角度 | A | 2 Hz | ° | -200~200 | 5 | 全部范围的±5% | 转向盘逆时针方向转动为正方向。 |
-| a用于标识车辆横摆角速度和车辆侧倾角速度方向的车辆坐标系应符合GB 39732中对于车辆坐标系的定义。 | | | | | | | | |
+<p align="left" style="margin-top: 10px;">
+表F.1中的序号1至序号5数据元素应保证在数据读取时能够被正确读取。表F.1中序号6至序号13数据元素应至少在事件起点或实时记录起点时刻记录。表F.1中序号14至序号21数据元素应至少在事件记录终点时刻记录。<br/>
+当能够单独记录连续多次时间段事件时，表F.1序号14至序号20数据元素可不记录。
+</p>
 
-表F.3 组合驾驶辅助系统运行信息
+</div>
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 序号 | 数据名称 | 分级 | 最小记录频率 | 单位 | 最小记录数据能力范围 | 最低记录分辨率 | 最低准确度 | 数据说明 |
-| 1 | 组合驾驶辅助系统请求的横向加速度 | B | 4 Hz | m/s2 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 0.5 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 2 | 组合驾驶辅助系统请求的转向盘转向角 | B | 4 Hz | ° | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 3 | 组合驾驶辅助系统请求的转向  曲率 | B | 4 Hz | 1/m | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 0.001 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 4 | 组合驾驶辅助系统请求的前轮  转角 | B | 4 Hz | ° | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 0.1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 5 | 组合驾驶辅助系统请求的转向  小齿轮转向角 | B | 4 Hz | ° | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 0.005 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 6 | 组合驾驶辅助系统请求的转向盘转向力矩 | B | 4 Hz | Nm | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 0.1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 7 | 组合驾驶辅助系统请求的转向盘转向角速率 | B | 4 Hz | °/s | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 10 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 8 | 组合驾驶辅助系统请求的车速 | B | 4 Hz | km/h | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 9 | 组合驾驶辅助系统请求的纵向  加速度 | B | 4 Hz | m/s2 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 0.5 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 10 | 组合驾驶辅助系统请求的加速  踏板开度比例 | B | 4 Hz | % | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 11 | 组合驾驶辅助系统请求的刹车  踏板开度比例 | B | 4 Hz | % | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 12 | 组合驾驶辅助系统请求的驱动  转矩 | B | 4 Hz | Nm | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 13 | 组合驾驶辅助系统请求的驱动  转速 | B | 4 Hz | rpm | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 100 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 14 | 组合驾驶辅助系统请求的轮端扭矩 | B | 4 Hz | Nm | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 15 | 组合驾驶辅助系统请求的制动主缸压力 | B | 4 Hz | MPa | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | 1 | 由企业自定义，应与组合驾驶辅助系统实际能力相符 | — |
-| 16 | 组合驾驶辅助系统请求的挡位 | B | 4 Hz | 不适用 | 1：P挡  2：R挡  3:N挡  4:D挡 | 不适用 | 不应有误差 | — |
-| 17 | 组合驾驶辅助系统请求的自适应前照明系统状态 | B | 4 Hz | 不适用 | 1：开启自适应照明  系统  0：关闭自适应照明系统 | 不适用 | 不应有误差 | — |
-| 18 | 组合驾驶辅助系统请求的近灯光状态 | B | 4 Hz | 不适用 | 1：开启  0：关闭 | 不适用 | 不应有误差 | — |
-| 19 | 组合驾驶辅助系统请求的远光灯状态 | B | 4 Hz | 不适用 | 1：开启  0：关闭 | 不适用 | 不应有误差 | — |
-| 20 | 组合驾驶辅助系统请求的危险警告信号状态 | B | 4 Hz | 不适用 | 1：开启  0：关闭 | 不适用 | 不应有误差 | — |
-| 21 | 组合驾驶辅助系统请求的制动灯状态 | B | 4 Hz | 不适用 | 1：开启  0：关闭 | 不适用 | 不应有误差 | — |
-| 22 | 组合驾驶辅助系统请求的左转向信号灯状态 | B | 4 Hz | 不适用 | 1：开启  0：关闭 | 不适用 | 不应有误差 | — |
-| 23 | 组合驾驶辅助系统请求的右转向信号灯状态 | B | 4 Hz | 不适用 | 1：开启  0：关闭 | 不适用 | 不应有误差 | — |
-| 24 | 组合驾驶辅助系统请求的车辆雨刮状态 | B | 4 Hz | 不适用 | 1：开启  0：关闭 | 不适用 | 不应有误差 | 设计运行条件若包含雨天时，应记录该数据 |
-| 1. 组合驾驶辅助数据记录系统记录序号1到序号7任一数据元素、序号8至序号15任一数据元素即视为满足本文件要求。  2. 组合驾驶辅助数据记录系统应按表F.3中的要求记录序号16至序号24数据元素。 | | | | | | | | |
+<div align="center">
+  <strong>表F.2 车辆状态及动态信息</strong>
 
-表F.4 行车环境信息
+<table>
+<thead>
+  <tr>
+    <th align="center">序号</th>
+    <th align="center">数据名称</th>
+    <th align="center">分级</th>
+    <th align="center">最小记录频率</th>
+    <th align="center">单位</th>
+    <th align="center">最小记录数据能力范围</th>
+    <th align="center">最低记录分辨率</th>
+    <th align="center">最低准确度</th>
+    <th align="center">数据说明</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center">1</td>
+    <td align="center">车辆速度</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">km/h</td>
+    <td align="center">0~240</td>
+    <td align="center">1</td>
+    <td align="center">±10%</td>
+    <td align="center">非仪表显示车速，应与车辆运行实际速度保持一致</td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td align="center">车辆横向加速度</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">m/s²</td>
+    <td align="center">-20~20</td>
+    <td align="center">1</td>
+    <td align="center">传感器探测范围的±10%</td>
+    <td align="center">当驾驶员坐在车内面向车辆行驶方向，从驾驶员角度看从左向右为正方向</td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td align="center">车辆纵向加速度</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">m/s²</td>
+    <td align="center">-20~20</td>
+    <td align="center">1</td>
+    <td align="center">传感器探测范围的±10%</td>
+    <td align="center">车辆向前行驶方向为正方向</td>
+  </tr>
+  <tr>
+    <td align="center">4</td>
+    <td align="center">车辆横摆角速度<sup>a</sup></td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">°/s</td>
+    <td align="center">-75~75</td>
+    <td align="center">0.1</td>
+    <td align="center">传感器探测范围的±10%</td>
+    <td align="center">车辆相对Z轴的角度变化，顺时针为正方向</td>
+  </tr>
+  <tr>
+    <td align="center">5</td>
+    <td align="center">车辆侧倾角速度<sup>a</sup></td>
+    <td align="center">B</td>
+    <td align="center">2 Hz</td>
+    <td align="center">°/s</td>
+    <td align="center">-75~75</td>
+    <td align="center">1</td>
+    <td align="center">传感器探测范围的±10%</td>
+    <td align="center">车辆相对X轴的角度变化，逆时针为正方向</td>
+  </tr>
+  <tr>
+    <td align="center">6</td>
+    <td align="center">航向角</td>
+    <td align="center">B</td>
+    <td align="center">2 Hz</td>
+    <td align="center">°</td>
+    <td align="center">-180~180</td>
+    <td align="center">1</td>
+    <td align="center">±5</td>
+    <td align="center">正北方向为0°，顺时针方向为正方向</td>
+  </tr>
+  <tr>
+    <td align="center">7</td>
+    <td align="center">转向盘角度</td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">°</td>
+    <td align="center">-200~200</td>
+    <td align="center">5</td>
+    <td align="center">全部范围时的±5%</td>
+    <td align="center">转向盘逆时针方向转动为正方向。</td>
+  </tr>
+</tbody>
+</table>
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 序号 | 数据名称 | 分级 | 最小记录频率 | 单位 | 最小记录数据能力范围 | 最低记录分辨率 | 最低记录准确度 | 数据说明 |
-| 1 | 感知目标物ID | A | 10 Hz | 不适用 | 由企业自定义 | 不适用 | 不应有误差 | 编号方式由企业自定义 |
-| 2 | 感知目标物类型 | A | 10 Hz | 不适用 | 由企业自定义，应与车辆实际感知能力相符 | 不适用 | 应与车辆实际感知能力相符 | 记录的目标物类型是自动驾驶系统识别的最大概率目标物类型 |
-| 3 | 感知目标物相对位置  （X向） | A | 10 Hz | m | 由企业自定义，应与车辆实际感知能力相符 | 0.5 | 应与车辆实际感知能力相符 | — |
-| 4 | 感知目标物相对位置  （Y向） | A | 10 Hz | m | 由企业自定义，应与车辆实际感知能力相符 | 0.5 | 应与车辆实际感知能力相符 | — |
-| 5 | 感知目标物相对速度  （X向） | A | 10 Hz | km/h | 由企业自定义，应与车辆实际感知能力相符 | 1 | 应与车辆实际感知能力相符 | — |
-| 6 | 感知目标物相对速度  （Y向） | A | 10 Hz | km/h | 由企业自定义，应与车辆实际感知能力相符 | 1 | 应与车辆实际感知能力相符 | — |
-| 7 | 外部图像a | A | 4 Hz | 不适用 | 组合驾驶辅助数据记录系统记录的外部图像或视频数据应至少满足以下任一要求：  ——若仅记录车辆前向图像或视频，水平视场角应不低于100°,垂直视场角应不低于35°，有效像素不低于90万；  ——若同时记录车辆前向、左侧、右侧和后向四路图像或视频，水平视场角应能覆盖360°，单路有效像素应不低于28万 | 不适用 | 不适用 | 应具有百毫秒级时间戳信息，且应能被正确解析 |
-| 8 | 外部视频a | A | 4 fps | 不适用 | 不适用 | 不适用 | 应具有百毫秒级时间戳信息，且应能被正确解析 |
-| 组合驾驶辅助数据记录系统应至少具备记录8个目标物的能力，若实际目标物小于8，组合驾驶辅助系统记录实际目标物的数量即可。每个目标物的记录信息均应包含符合本表要求的序号1~序号6的数据元素。  注：本表中相对位置和相对速度的测量均基于同一坐标系：将车辆后轴重点作为坐标系原点，X轴平行于车辆的纵向对称平面并指向车辆前方，Y轴垂直于车辆的纵向对称平面并指向车辆左侧。  注：若组合驾驶辅助系统采用网络模型无法生成感知目标物信息，可不记录本表中序号1-6数据元素。 | | | | | | | | |
-| a外部图像或外部视频应至少记录一种。 | | | | | | | | |
+<p align="left" style="margin-top: 10px;">
+<sup>a</sup>用于标识车辆横摆角速度和车辆侧倾角速度方向的车辆坐标系应符合GB 39732中对于车辆坐标系的定义。
+</p>
 
-表F.5 驾驶员操作及状态信息
+</div>
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 序号 | 数据名称 | 分级 | 最小记录频率 | 单位 | 最小记录数据能力范围 | 最低记录分辨率 | 最低记录准确度 | 数据说明 |
-| 1 | 驾驶员是否系安全带 | A | 2 Hz | 不适用 | 0：未系安全带  1：系安全带 | 不适用 | 不应有误差 | — |
-| 2 | 驾驶员是否在驾驶位置 | A | 2 Hz | 不适用 | 0：否  1：是 | 不适用 | 不应有误差 | — |
-| 3 | 驾驶员是否手部脱离 | A | 2 Hz | 不适用 | 0：否  1：是 | 不适用 | 不应有误差 | — |
-| 4 | 驾驶员是否视线脱离 | A | 2 Hz | 不适用 | 0：否  1：是 | 不适用 | 不应有误差 | — |
-| 5 | 加速踏板开度 | A | 2 Hz | % | 0~100 | 1 | 全部范围的±10% | — |
-| 6 | 刹车踏板开度a，b | A | 2 Hz | % | 0~100 | 1 | 全部范围的±10% | 如不具备记录踏板开度的条件，应记录刹车踏板状态，记录的状态应至少包含：  0：否  1：是 |
-| 7 | 输入转向扭矩c | A | 2 Hz | Nm | -10~10 | 0.1 | ±1 | - |
-| 8 | 系统激活后用户设置巡航车速 | A | 2 Hz | km/h | 0~240 | 1 | ±10% | - |
-| a 如果已经记录了刹车踏板开度,可不记录刹车踏板状态。  b 刹车踏板有效开度上限若小于100,可将刹车踏板有效开度上限作为最小记录数据能力范围的上限值。  c 输入转向扭矩逆时针方向为正方向。 | | | | | | | | |
+<div align="center">
+  <strong>表F.3 组合驾驶辅助系统运行信息</strong>
 
-* + - * 1. 表F.1至表F.5中的数据元素应能时间同步。所有的数据都应有时间戳，且所有的时间戳应来自于同一时间源。
-    1. 数据存储要求
-       1. 存储介质
+<table>
+<thead>
+  <tr>
+    <th align="center">序号</th>
+    <th align="center">数据名称</th>
+    <th align="center">分级</th>
+    <th align="center">最小记录频率</th>
+    <th align="center">单位</th>
+    <th align="center">最小记录数据能力范围</th>
+    <th align="center">最低记录分辨率</th>
+    <th align="center">最低准确度</th>
+    <th align="center">数据说明</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center">1</td>
+    <td align="center">组合驾驶辅助系统请求的横向加速度</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">m/s²</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">0.5</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td align="center">组合驾驶辅助系统请求的转向盘转向角</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">°</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td align="center">组合驾驶辅助系统请求的转向曲率</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">1/m</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">0.001</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">4</td>
+    <td align="center">组合驾驶辅助系统请求的前轮转角</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">°</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">0.1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">5</td>
+    <td align="center">组合驾驶辅助系统请求的转向小齿轮转向角</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">°</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">0.005</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">6</td>
+    <td align="center">组合驾驶辅助系统请求的转向盘转向力矩</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">Nm</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">0.1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">7</td>
+    <td align="center">组合驾驶辅助系统请求的转向盘转向角速率</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">°/s</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">10</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">8</td>
+    <td align="center">组合驾驶辅助系统请求的车速</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">km/h</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">9</td>
+    <td align="center">组合驾驶辅助系统请求的纵向加速度</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">m/s²</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">0.5</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">10</td>
+    <td align="center">组合驾驶辅助系统请求的加速踏板开度比例</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">%</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">11</td>
+    <td align="center">组合驾驶辅助系统请求的制车踏板开度比例</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">%</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">12</td>
+    <td align="center">组合驾驶辅助系统请求的驱动转矩</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">Nm</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">13</td>
+    <td align="center">组合驾驶辅助系统请求的驱动转速</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">rpm</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">100</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">14</td>
+    <td align="center">组合驾驶辅助系统请求的轮端扭矩</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">Nm</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">15</td>
+    <td align="center">组合驾驶辅助系统请求的制动主缸压力</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">MPa</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">1</td>
+    <td align="center">由企业自定义，应与组合驾驶辅助系统实际能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">16</td>
+    <td align="center">组合驾驶辅助系统请求的挡位</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：P挡<br/>2：R挡<br/>3：N挡<br/>4：D挡</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">17</td>
+    <td align="center">组合驾驶辅助系统请求的自适应前照明系统状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启自适应照明系统<br/>0：关闭自适应照明系统</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">18</td>
+    <td align="center">组合驾驶辅助系统请求的近灯光状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">19</td>
+    <td align="center">组合驾驶辅助系统请求的远光灯状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">20</td>
+    <td align="center">组合驾驶辅助系统请求的危险警告信号状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">21</td>
+    <td align="center">组合驾驶辅助系统请求的制动灯状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">22</td>
+    <td align="center">组合驾驶辅助系统请求的左转向信号灯状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">23</td>
+    <td align="center">组合驾驶辅助系统请求的右转向信号灯状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">24</td>
+    <td align="center">组合驾驶辅助系统请求的车辆雨刮状态</td>
+    <td align="center">B</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">设计运行条件若包含雨天时，应记录该数据</td>
+  </tr>
+
+</tbody>
+</table>
+
+<p align="left" style="margin-top: 10px;">
+1. 组合驾驶辅助数据记录系统记录序号1到序号7任一数据元素、序号8至序号15任一数据元素即视为满足本文件要求。</br>
+2. 组合驾驶辅助数据记录系统应按表F.3中的要求记录序号16至序号24数据元素。
+</p>
+
+</div>
+
+<div align="center">
+  <strong>表F.4 行车环境信息</strong>
+
+<table>
+<thead>
+  <tr>
+    <th align="center">序号</th>
+    <th align="center">数据名称</th>
+    <th align="center">分级</th>
+    <th align="center">最小记录频率</th>
+    <th align="center">单位</th>
+    <th align="center">最小记录数据能力范围</th>
+    <th align="center">最低记录分辨率</th>
+    <th align="center">最低记录准确度</th>
+    <th align="center">数据说明</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center">1</td>
+    <td align="center">感知目标物ID</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">由企业自定义</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">编号方式由企业自定义</td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td align="center">感知目标物类型</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">由企业自定义，应与车辆实际感知能力相符</td>
+    <td align="center">不适用</td>
+    <td align="center">应与车辆实际感知能力相符</td>
+    <td align="center">记录的目标物类型是自动驾驶系统识别的最大概率目标物类型</td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td align="center">感知目标物相对位置(X向)</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">m</td>
+    <td align="center">由企业自定义，应与车辆实际感知能力相符</td>
+    <td align="center">0.5</td>
+    <td align="center">应与车辆实际感知能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">4</td>
+    <td align="center">感知目标物相对位置(Y向)</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">m</td>
+    <td align="center">由企业自定义，应与车辆实际感知能力相符</td>
+    <td align="center">0.5</td>
+    <td align="center">应与车辆实际感知能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">5</td>
+    <td align="center">感知目标物相对速度(X向)</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">km/h</td>
+    <td align="center">由企业自定义，应与车辆实际感知能力相符</td>
+    <td align="center">1</td>
+    <td align="center">应与车辆实际感知能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">6</td>
+    <td align="center">感知目标物相对速度(Y向)</td>
+    <td align="center">A</td>
+    <td align="center">10 Hz</td>
+    <td align="center">km/h</td>
+    <td align="center">由企业自定义，应与车辆实际感知能力相符</td>
+    <td align="center">1</td>
+    <td align="center">应与车辆实际感知能力相符</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">7</td>
+    <td align="center">外部图像<sup>a</sup></td>
+    <td align="center">A</td>
+    <td align="center">4 Hz</td>
+    <td align="center">不适用</td>
+    <td align="left" rowspan='2'>组合驾驶辅助数据记录系统记录的外部图像或视频数据应至少满足以下任一要求：</br>——若仅记录车辆前向图像或视频，水平视场角应不低于100°,垂直视场角应不低于35°，有效像素不低于90万；</br>——若同时记录车辆前向、左侧、右侧和后向四路图像或视频，水平视场角应能覆盖360°，单路有效像素应不低于28万</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">应具有百毫秒级时间戳信息，且应能被正确解析</td>
+  </tr>
+  <tr>
+    <td align="center">8</td>
+    <td align="center">外部视频</td>
+    <td align="center">A</td>
+    <td align="center">4 fps</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">不适用</td>
+    <td align="center">应具有百叠秒级时间戳信息，且应能被正确解析</td>
+  </tr>
+</tbody>
+</table>
+
+<p align="left" style="margin-top: 10px;">
+组合驾驶辅助数据记录系统应至少具备记录8个目标物的能力，若实际目标物小于8，组合驾驶辅助系统记录实际目标物的数量即可。每个目标物的记录信息均应包含符合本表要求的序号1~序号6的数据元素。</br>
+<strong>注：</strong>本表中相对位置和相对速度的测量均基于同一坐标系：将车辆后轴重点作为坐标系原点，X轴平行于车辆的纵向对称平面并指向车辆前方，Y轴垂直于车辆的纵向对称平面并指向车辆左侧。</br><strong>注：</strong>若组合驾驶辅助系统采用网络模型无法生成感知目标物信息，可不记录本表中序号1-6数据元素。</br>
+<sup>a</sup>外部图像或外部视频应至少记录一种。
+</p>
+
+</div>
+
+<div align="center">
+  <strong>表F.5 驾驶员操作及状态信息</strong>
+
+<table>
+<thead>
+  <tr>
+    <th align="center">序号</th>
+    <th align="center">数据名称</th>
+    <th align="center">分级</th>
+    <th align="center">最小记录频率</th>
+    <th align="center">单位</th>
+    <th align="center">最小记录数据能力范围</th>
+    <th align="center">最低记录分辨率</th>
+    <th align="center">最低记录准确度</th>
+    <th align="center">数据说明</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center">1</td>
+    <td align="center">驾驶员是否系安全带</td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">0：未系安全带<br/>1：系安全带</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td align="center">驾驶员是否在驾驶位置</td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">0：否<br/>1：是</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td align="center">驾驶员是否手部脱离</td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">0：否<br/>1：是</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">4</td>
+    <td align="center">驾驶员是否视线脱离</td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">不适用</td>
+    <td align="center">0：否<br/>1：是</td>
+    <td align="center">不适用</td>
+    <td align="center">不应有误差</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">5</td>
+    <td align="center">加速踏板开度</td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">%</td>
+    <td align="center">0~100</td>
+    <td align="center">1</td>
+    <td align="center">全部范围的±10%</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">6</td>
+    <td align="center">刹车踏板开度<sup>a, b</sup></td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">%</td>
+    <td align="center">0~100</td>
+    <td align="center">1</td>
+    <td align="center">全部范围的±10%</td>
+    <td align="left">如不具备记录踏板开度的条件，应记录刹车踏板状态，记录的状态应至少包含：<br/>0：否<br/>1：是</td>
+  </tr>
+  <tr>
+    <td align="center">7</td>
+    <td align="center">输入转向扭矩<sup>c</sup></td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">Nm</td>
+    <td align="center">-10~10</td>
+    <td align="center">0.1</td>
+    <td align="center">±1</td>
+    <td align="center">—</td>
+  </tr>
+  <tr>
+    <td align="center">8</td>
+    <td align="center">系统激活后用户设置巡航车速</td>
+    <td align="center">A</td>
+    <td align="center">2 Hz</td>
+    <td align="center">km/h</td>
+    <td align="center">0~240</td>
+    <td align="center">1</td>
+    <td align="center">±10%</td>
+    <td align="center">—</td>
+  </tr>
+</tbody>
+</table>
+
+<p align="left" style="margin-top: 10px;">
+<sup>a</sup> 如果已经记录了刹车踏板开度,可不记录刹车踏板状态。</br>
+<sup>b</sup> 刹车踏板有效开度上限若小于100,可将刹车踏板有效开度上限作为最小记录数据能力范围的上限值。</br>
+<sup>c</sup> 输入转向扭矩逆时针方向为正方向。
+</p>
+
+</div>
+
+**F.1.4.2.2** 表F.1至表F.5中的数据元素应能时间同步。所有的数据都应有时间戳，且所有的时间戳应来自于同一时间源。
+
+#### F.1.5 数据存储要求
+
+##### F.1.5.1 存储介质
 
 组合驾驶辅助数据记录系统记录的数据应存储在车端非易失性存储器中。
 
-* + - 1. 存储能力
+##### F.1.5.2 存储能力
 
 组合驾驶辅助数据记录系统应符合如下要求：
 
-1. I型系统能存储的碰撞事件和碰撞风险事件次数总体不应少于5次，且能存储的时间戳事件次数不应少于2500次。
-2. II型系统能存储的连续数据不应少于8 h，且能存储的时间戳事件次数不应少于2500次。
-3. 当车辆组合驾驶数据记录系统和自动驾驶数据记录系统设计为同一系统时，该系统的存储能力满足组合驾驶辅助数据记录系统和自动驾驶数据记录系统两者中存储能力要求较高者即可，不需要达到两者存储能力要求的总和。
-   * + 1. 存储覆盖机制
-          1. I型系统
+> a) I型系统能存储的碰撞事件和碰撞风险事件次数总体不应少于5次，且能存储的时间戳事件次数不应少于2500次。
+
+> b) II型系统能存储的连续数据不应少于8 h，且能存储的时间戳事件次数不应少于2500次。
+
+> **注：** 当车辆组合驾驶数据记录系统和自动驾驶数据记录系统设计为同一系统时，该系统的存储能力满足组合驾驶辅助数据记录系统和自动驾驶数据记录系统两者中存储能力要求较高者即可，不需要达到两者存储能力要求的总和。
+
+##### F.1.5.3 存储覆盖机制
+
+###### F.1.5.3.1 I型系统
 
 I型系统存储区域已满时，应满足如下存储覆盖要求：
 
-1. 时间段事件数据和时间戳事件数据不应互相覆盖；
-2. 对于时间段事件，碰撞事件数据不应被有碰撞风险事件数据覆盖；
-3. 满足锁定条件的碰撞事件数据，不应被后续事件的数据覆盖；
-4. 其他情况应按照时间顺序依次覆盖；
-5. 当I型系统存储区域已满且存储的时间段数据均为锁定事件数据时，在将全部锁定事件数据在平台或者服务器实现安全存储的情况下，组合驾驶辅助数据记录系统的锁定时间段事件数据可被覆盖。
-6. 当车辆组合驾驶数据记录系统和自动驾驶数据记录系统设计为同一系统时，该系统的存储覆盖机制在遵循上述存储覆盖要求基础上，组合驾驶辅助数据和自动驾驶数据可按时间顺序依次覆盖。
-   * + - 1. II型系统
+> a) 时间段事件数据和时间戳事件数据不应互相覆盖；
+
+> b) 对于时间段事件，碰撞事件数据不应被有碰撞风险事件数据覆盖；
+
+> c) 满足锁定条件的碰撞事件数据，不应被后续事件的数据覆盖；
+
+> d) 其他情况应按照时间顺序依次覆盖；
+
+> e) 当I型系统存储区域已满且存储的时间段数据均为锁定事件数据时，在将全部锁定事件数据在平台或者服务器实现安全存储的情况下，组合驾驶辅助数据记录系统的锁定时间段事件数据可被覆盖。
+
+> **注：** 当车辆组合驾驶数据记录系统和自动驾驶数据记录系统设计为同一系统时，该系统的存储覆盖机制在遵循上述存储覆盖要求基础上，组合驾驶辅助数据和自动驾驶数据可按时间顺序依次覆盖。
+
+###### F.1.5.3.2 II型系统
 
 II型系统存储区域已满时，应满足如下存储覆盖要求：
 
-1. 实时连续记录的数据与时间戳事件数据不应互相覆盖；
-2. 其他情况应按照时间顺序依次覆盖。
-   * + - 1. 多个组合驾驶辅助数据记录系统
+> a) 实时连续记录的数据与时间戳事件数据不应互相覆盖；
+
+> b) 其他情况应按照时间顺序依次覆盖。
+
+###### F.1.5.3.3 多个组合驾驶辅助数据记录系统
 
 如果车辆同时具备I型和II型组合驾驶辅助数据记录系统，I型系统和II型系统记录的数据不应互相覆盖。
 
-* + - 1. 断电存储
+##### F.1.5.4 断电存储
 
 组合驾驶辅助系统激活期间，如碰撞事件导致组合驾驶辅助数据记录系统无法被正常供电，组合驾驶辅助数据记录系统应至少记录事件记录起点至事件起点的数据，视频和图像数据除外。
 
 无法被正常供电：具备冗余供电方式的组合驾驶辅助数据记录系统无法继续由非冗余供电方式供电。
 
-* + 1. 数据读取要求
-       1. 总体要求
+#### F.1.6 数据读取要求
+
+##### F.1.6.1 总体要求
 
 组合驾驶辅助数据记录系统记录的数据应能被读取并正确解析，包括整车和部件级别的读取。
 
 整车级别的数据读取方式应至少支持下列方式之一：
 
-——符合GB 39732-2020 4.4.3.1的读取方式，其数据元素排列应符合F.4；
+> ———— 符合GB 39732-2020 4.4.3.1的读取方式，其数据元素排列应符合F.4；
 
-——符合GB 44497-2024 4.6.2至4.6.4的读取方式；
+> ———— 符合GB 44497-2024 4.6.2至4.6.4的读取方式；
 
-* + 1. 信息安全要求
-       1. 组合驾驶辅助数据记录系统应具备安全启动功能，应保护组合驾驶辅助数据记录系统的可信根、引导加载程序、系统固件不被篡改，或被篡改后无法正常启动。
-       2. 组合驾驶辅助数据记录系统应采取有效的安全防御机制保护存储的数据。若发生篡改和非授权的删除，则组合驾驶辅助数据记录系统应至少能在读取时通过技术手段识别并记录。
-    2. 耐撞性能要求
+#### F.1.7 信息安全要求
+
+**F.1.7.1** 组合驾驶辅助数据记录系统应具备安全启动功能，应保护组合驾驶辅助数据记录系统的可信根、引导加载程序、系统固件不被篡改，或被篡改后无法正常启动。
+
+**F.1.7.2** 组合驾驶辅助数据记录系统应采取有效的安全防御机制保护存储的数据。若发生篡改和非授权的删除，则组合驾驶辅助数据记录系统应至少能在读取时通过技术手段识别并记录。
+
+#### F.1.8 耐撞性能要求
 
 按照F.3.3进行试验，组合驾驶辅助数据记录系统记录的数据至少应与试验前的数据保持一致。
 
-* + 1. 环境评价性要求
-       1. 功能状态定义
+#### F.1.9 环境评价性要求
+
+##### F.1.9.1 功能状态定义
 
 组合驾驶辅助数据记录系统记录的数据应能够被正确读取、解析且与试验前数据保持一致。
 
-* + - 1. 电气性能
-         1. 直流供电电压
+##### F.1.9.2 电气性能
+
+###### F.1.9.2.1 直流供电电压
 
 实现组合驾驶辅助数据记录系统功能的控制器直流供电电压范围见表F.6，按照F.3.6.1.1进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-* + - * 1. 过电压
+###### F.1.9.2.2 过电压
 
-（Tmax-20℃）条件
+**F.1.9.2.2.1 （T<sub>max</sub>-20℃）条件**
 
 按照F.3.6.1.2.1进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-室温条件下
+**F.1.9.2.2.2 室温条件下**
 
 按照F.3.6.1.2.2进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-* + - * 1. 叠加交流电压
+###### F.1.9.2.3 叠加交流电压
 
 按照F.3.6.1.3进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-* + - * 1. 供电电压缓降和缓升
+###### F.1.9.2.4 供电电压缓降和缓升
 
 按照F.3.6.1.4进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-* + - * 1. 供电电压瞬态变化
+###### F.1.9.2.5 供电电压瞬态变化
 
-电压瞬时下降
+**F.1.9.2.5.1 电压瞬时下降**
 
 按照F.3.6.1.5.1进行试验，试验后，产品功能状态应满足F.1.9.1得要求。
 
-对电压骤降的复位性能
+**F.1.9.2.5.2 对电压骤降的复位性能**
 
 按照F.3.6.1.5.2进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-表F.6 直流供电电压范围
+<div align="center">
+  <strong>表F.6 直流供电电压范围</strong>
 
+<p align="right" style="margin-top: 10px;">
 单位为伏
+</p>
 
-|  |  |  |  |
-| --- | --- | --- | --- |
-| 标称电压  *UN* | 最小电压  *USmin* | 最大电压  *USmax* | 试验电压  *UA* |
-| 12 | 9 | 16 | 14±0.2 |
-| 24 | 16 | 32 | 28±0.2 |
+<table>
+<thead>
+  <tr>
+    <th align="center">标称电压 U<sub>N</sub></th>
+    <th align="center">最小电压 U<sub>min</sub></th>
+    <th align="center">最大电压 U<sub>Smax</sub></th>
+    <th align="center">试验电压 U<sub>A</sub></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center">12</td>
+    <td align="center">9</td>
+    <td align="center">16</td>
+    <td align="center">14±0.2</td>
+  </tr>
+  <tr>
+    <td align="center">24</td>
+    <td align="center">16</td>
+    <td align="center">32</td>
+    <td align="center">28±0.2</td>
+  </tr>
+</tbody>
+</table>
 
-启动特性
+</div>
+
+
+
+**F.1.9.2.5.3 启动特性**
 
 按照F.3.6.1.5.3进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-1. 该要求不适用于仅用于纯电动汽车的组合驾驶辅助数据记录系统。
+> **注：** 该要求不适用于仅用于纯电动汽车的组合驾驶辅助数据记录系统。
 
-抛负载
+**F.1.9.2.5.4 抛负载**
 
 按照F.3.6.1.5.4进行试验，试验后，产品功能状态应满足F.1.9.1的要求。
 
-1. 该要求不适用于仅用于纯电动汽车的组合驾驶辅助数据记录系统。
+> **注：** 该要求不适用于仅用于纯电动汽车的组合驾驶辅助数据记录系统。
+
    * + - 1. 反向电压
 
 按照F.3.6.1.6进行试验，试验后，需要进行内部检查，产品内部元器件应无损伤，产品功能状态应满足F.1.9.1的要求。
