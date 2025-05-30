@@ -114,31 +114,31 @@
     <td align="center">√</td>
   </tr>
   <tr>
-  <td align="center" rowspan="4">4.2 系统与其他驾驶自动化系统的交互</td>
-  <td align="center" colspan='4'>4.2.1</td>
-  <td align="center">C 3.3.2.3.13、C3.3.2.3.14</td>
-  <td align="center">√</td>
-  <td align="center"></td>
-</tr>
-<tr>
-  <td align="center" colspan='4'>4.2.2</td>
-  <td align="center"></td>
-  <td align="center"></td>
-  <td align="center">√</td>
-</tr>
-<tr>
-  <td align="center" colspan='4'>4.2.3</td>
-  <td align="center"></td>
-  <td align="center">√</td>
-  <td align="center">√</td>
-</tr>
-<tr>
-  <td align="center" colspan='4'>4.2.4</td>
-  <td align="center"></td>
-  <td align="center">√</td>
-  <td align="center">√</td>
-</tr>
-<tr>
+    <td align="center" rowspan="4">4.2 系统与其他驾驶自动化系统的交互</td>
+    <td align="center" colspan='4'>4.2.1</td>
+    <td align="center">C 3.3.2.3.13、C3.3.2.3.14</td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='4'>4.2.2</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='4'>4.2.3</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='4'>4.2.4</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
     <td align="center" rowspan="6">4.3 ODC边界的探测和响应</td>
     <td align="center" colspan='4'>4.3.1</td>
     <td align="center"></td>
@@ -175,7 +175,6 @@
     <td align="center">√</td>
     <td align="center">√</td>
   </tr>
-
   <tr>
     <td align="center" rowspan="3">4.4<br/>可控性</td>
     <td align="center" colspan='4'>4.4.1</td>
@@ -691,8 +690,216 @@
     <td align="center"></td>
     <td align="center">√</td>
   </tr>
-
+  <tr>
+    <td align="center" rowspan="5">4.7 系统失效的检测与响应</td>
+    <td align="center" colspan='4'>4.7.1</td>
+    <td align="center">附录C 3.3.1</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+    <tr>
+    <td align="center" colspan='4'>4.7.2</td>
+    <td align="center">附录C 3.3.1</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='4'>4.7.3</td>
+    <td align="center">附录C 3.3.1</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='4'>4.7.4</td>
+    <td align="center">附录C 3.3.1</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='4'>4.7.5</td>
+    <td align="center">附录C 3.3.1</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="27">4.8 人机交互</td>
+    <td align="center" rowspan="8">4.8.1 激活和退出</td>
+    <td align="center" rowspan="3">4.8.1.1 一般要求</td>
+    <td align="center" colspan='2'>4.8.1.1.1</td>
+    <td align="center">5.4、5.5</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+    <tr>
+    <td align="center" colspan='2'>4.8.1.1.2</td>
+    <td align="center">5</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.1.1.3</td>
+    <td align="center">5.4、5.5</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="2">4.8.1.2 激活</td>
+    <td align="center" colspan='2'>4.8.1.2.1</td>
+    <td align="center">5.4、5.5</td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.1.2.2</td>
+    <td align="center">5.4、5.5</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="3">4.8.1.3 退出</td>
+    <td align="center" colspan='2'>4.8.1.3.1</td>
+    <td align="center">5.4、5.5</td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.1.3.2</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.1.3.3</td>
+    <td align="center">C 3.3.2.3.13、C 3.3.2.3.14</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="8">4.8.2 驾驶员运动控制干预</td>
+    <td align="center" colspan='3'>4.8.2.1</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+    <tr>
+    <td align="center" colspan='3'>4.8.2.2</td>
+    <td align="center">5.9.1、5.9.2</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.2.3</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.2.4</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.2.5</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.2.6</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.2.7</td>
+    <td align="center">5.9.1</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.2.8</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+    <tr>
+    <td align="center" rowspan="8">4.8.3 驾驶员状态检测</td>
+    <td align="center" rowspan="3">4.8.3.1 驾驶员脱离检测</td>
+    <td align="center" colspan='2'>4.8.3.1.1</td>
+    <td align="center">5.4.10.4～5.4.10.6</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.3.1.2</td>
+    <td align="center">5.4.10.4、5.4.10.5</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.3.1.3</td>
+    <td align="center">5.4.10.5、5.4.10.6</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="5">4.8.3.2 驾驶员脱离提示及警告信号</td>
+    <td align="center" colspan='2'>4.8.3.2.1</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.3.2.2</td>
+    <td align="center">5.4.10.4、5.4.10.5</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.3.2.3</td>
+    <td align="center">5.4.10.5、5.4.10.6</td>
+    <td align="center"></td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.3.2.4</td>
+    <td align="center">附录C 3.3</td>
+    <td align="center">√</td>
+    <td align="center">√</td>
+  </tr>
+  <tr>
+    <td align="center" colspan='2'>4.8.3.2.5</td>
+    <td align="center">5.4.11</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="3">4.8.4 系统禁用要求</td>
+    <td align="center" colspan='3'>4.8.4.1</td>
+    <td align="center">5.4.17</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.4.2</td>
+    <td align="center">5.4.17</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan='3'>4.8.4.3</td>
+    <td align="center">5.4.17</td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
 </tbody>
 </table>
+
+<p align="left" style="margin-top: 10px;">
+<strong>注1：</strong>表格中“技术要求”若在“第5章（场地试验）” 中有对应的试验场景，则试验场景下系统应满足该条款<br/>
+<strong>注2：</strong>表格中“技术要求”若在“第6章（道路试验）”中为“√”，则道路试验中若遇到相应场景下系统应满足该条款。<br/>
+<strong>注3：</strong>表格中“技术要求”若在“文件检查项”中为“√”，则车辆制造商应提供符合该条款的证明材料。
+</p>
 
 </div>
