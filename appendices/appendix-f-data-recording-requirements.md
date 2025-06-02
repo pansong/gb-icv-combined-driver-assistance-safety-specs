@@ -1629,335 +1629,1175 @@ II型系统存储区域已满时，应满足如下存储覆盖要求：
 
 ###### F.3.6.1.5 供电电压瞬态变化
 
-电压瞬时下降
+**F.3.6.1.5.1 电压瞬时下降**
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.2—2019中4.6.1.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-对电压骤降的复位性能
+**F.3.6.1.5.2 对电压骤降的复位性能**
 
 以GB/T 28046.1—2011定义的工作模式3.1,按照GB/T 28046.2—2019中4.6.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-启动特性
+**F.3.6.1.5.3 启动特性**
 
 以GB/T 28046.1—2011定义的工作模式3.1,按照GB/T 28046.2—2019中4.6.3.2等级Ⅱ的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-抛负载
+**F.3.6.1.5.4 抛负载**
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.2—2019中4.6.4.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 反向电压
+###### F.3.6.1.6 反向电压
 
 以GB/T 28046.1—2011定义的工作模式3.1,按表F.9的方法进行试验。其他电压规格系统的试验条件可协商确定。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-表F.9 反向电压试验
+<div align="center">
+  <strong>表F.9 反向电压试验</strong>
 
-|  |  |  |  |
-| --- | --- | --- | --- |
-| 序号 | 名称 | 试验参数 | |
-| 1 | UN | 12 V | 24 V |
-| 2 | 试验电压（电源输入接口正负极反接） | -14 V | -28 V |
-| 3 | 试验时间 | （60±6）s | |
-| 4 | 试验循环次数 | 1次 | |
+<table>
+<thead>
+  <tr>
+    <th align="center">序号</th>
+    <th align="center">名称</th>
+    <th align="center" colspan="2">试验参数</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center">1</td>
+    <td align="center">U<sub>N</sub></td>
+    <td align="center">12 V</td>
+    <td align="center">24 V</td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td align="center">试验电压（电源输入接口正负极反接）</td>
+    <td align="center">-14 V</td>
+    <td align="center">-28 V</td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td align="center">试验时间</td>
+    <td align="center" colspan="2">(60±6) s</td>
+  </tr>
+  <tr>
+    <td align="center">4</td>
+    <td align="center">试验循环次数</td>
+    <td align="center" colspan="2">1次</td>
+  </tr>
+</tbody>
+</table>
 
-* + - * 1. 参考接地和供电偏移
+</div>
+
+###### F.3.6.1.7 参考接地和供电偏移
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.2—2019中4.8.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 开路
+###### F.3.6.1.8 开路
 
-单线开路
+**F.3.6.1.8.1 单线开路**
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.2—2019中4.9.1.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-多线开路
+**F.3.6.1.8.2 多线开路**
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.2—2019中4.9.2.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 短路保护
+###### F.3.6.1.9 短路保护
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.2—2019中4.10.2.1的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 绝缘电阻
+###### F.3.6.1.10 绝缘电阻
 
 以GB/T 28046.1—2011定义的工作模式1.1，按照GB/T 28046.2—2019中4.12.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - 1. 防尘防水性能
+##### F.3.6.2 防尘防水性能
 
 以GB/T 28046.1—2011定义的工作模式1.1，按照GB/T 30038—2013中8.3.3.2和8.4.3的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - 1. 环境耐候性
-         1. 低温贮存
+##### F.3.6.3 环境耐候性
+
+###### F.3.6.3.1 低温贮存
 
 在低温-40 ℃贮存并以GB/T 28046.1—2011定义的工作模式1.1，按照GB/T 28046.4—2011中5.1.1.1.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 低温工作
+###### F.3.6.3.2 低温工作
 
-以最低工作温度（*Tmin*）和GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.4—2011中5.1.1.2.2的方法进行试验。
+以最低工作温度（*T<sub>min</sub>*）和GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.4—2011中5.1.1.2.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 高温贮存
+###### F.3.6.3.3 高温贮存
 
 在高温85 ℃贮存并以GB/T 28046.1—2011定义的工作模式1.1，按照GB/T 28046.4—2011中5.1.2.1.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 高温工作
+###### F.3.6.3.4 高温工作
 
-以最高工作温度（*Tmax*）和GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.4—2011中5.1.2.2.2的方法进行试验。
-
-试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
-
-* + - * 1. 温度梯度
-
-在*Tmin*～*Tmax*范围内和GB/T 28046.1-2011定义的工作模式3.1，按照GB/T 28046.4—2011中5.2.2的方法进行试验。
+以最高工作温度（*T<sub>max</sub>*）和GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.4—2011中5.1.2.2.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 规定转换时间的温度快速变化
+###### F.3.6.3.5 温度梯度
 
-在*Tmin*～*Tmax*范围内和GB/T 28046.1-2011定义的工作模式1.1，按照GB/T 28046.4—2011中5.3.2.2的方法进行试验。
-
-试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
-
-* + - * 1. 规定变化率的温度循环
-
-在*Tmin*～*Tmax*范围内和GB/T 28046.1-2011定义的工作模式3.1，按照GB/T 28046.4—2011中的5.3.1.2的方法进行试验。
+在 *T<sub>min</sub>* ～ *T<sub>max</sub>* 范围内和GB/T 28046.1-2011定义的工作模式3.1，按照GB/T 28046.4—2011中5.2.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 湿热循环
+###### F.3.6.3.6 规定转换时间的温度快速变化
+
+在 *T<sub>min</sub>* ～ *T<sub>max</sub>* 范围内和GB/T 28046.1-2011定义的工作模式1.1，按照GB/T 28046.4—2011中5.3.2.2的方法进行试验。
+
+试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
+
+###### F.3.6.3.7 规定变化率的温度循环
+
+在 *T<sub>min</sub>* ～ *T<sub>max</sub>* 范围内和GB/T 28046.1-2011定义的工作模式3.1，按照GB/T 28046.4—2011中的5.3.1.2的方法进行试验。
+
+试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
+
+###### F.3.6.3.8 湿热循环
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.4—2011中5.6.2.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 稳态湿热
+###### F.3.6.3.9 稳态湿热
 
 以GB/T 28046.1—2011定义的工作模式2.1（试验最后1 h采用GB/T 28046.1—2011定义的工作模式3.1），按照GB/T 28046.4—2011中5.7.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 太阳光辐射
+###### F.3.6.3.10 太阳光辐射
 
 安装在乘客舱内太阳直射处的组合驾驶辅助数据记录系统，以GB/T 28046.1—2011定义的工作模式1.1，按照GB/T 1865—2009中方法2和表3循环C进行600 h试验。
 
 试验后，检查实现组合驾驶辅助数据记录系统功能的控制器表面。
 
-* + - 1. 机械性能
-         1. 机械振动
+##### F.3.6.4 机械性能
+
+###### F.3.6.4.1 机械振动
 
 模拟在车辆上的安装方式在振动台上安装固定，以GB/T 28046.1—2011定义的工作模式3.1，根据不同安装位置，按照GB/T 28046.3—2011中4.1.2.4.2、4.1.2.7.2或4.1.2.8.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 机械冲击
+###### F.3.6.4.2 机械冲击
 
 以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 28046.3—2011中4.2.2.2的方法进行试验。试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - 1. 化学负荷
+##### F.3.6.5 化学负荷
 
 组合驾驶辅助数据记录系统以GB/T 28046.1—2011定义的工作模式1.1，按照GB/T 28046.5—2013中表1安装位置代码[B]选择试剂和暴露条件以及表2的湿润方法和4.8的程序进行试验。
 
 试验后，检查实现组合驾驶辅助数据记录系统功能的控制器表面，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - 1. 电磁兼容性能
-         1. 对静电放电产生的电骚扰抗扰
+##### F.3.6.6 电磁兼容性能
 
-电子模块不通电
+###### F.3.6.6.1 对静电放电产生的电骚扰抗扰
+
+**F.3.6.6.1.1 电子模块不通电**
 
 组合驾驶辅助数据记录系统以GB/T 28046.1—2011定义的工作模式1.1，按照GB/T 19951-2019附录C中表C.1、表C.2 的类别1试验严酷等级不低于L3的测试电压要求和第9章规定的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-电子模块通电
+**F.3.6.6.1.2 电子模块通电**
 
 组合驾驶辅助数据记录系统以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 19951—2019附录C中表C.1、表C.2、表C.3的类别1试验严酷等级不低于L3的测试电压要求和第8章规定的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 对由传导和耦合引起的电骚扰抗扰
+###### F.3.6.6.2 对由传导和耦合引起的电骚扰抗扰
 
-沿电源线的电瞬态传导抗扰
+**F.3.6.6.2.1 沿电源线的电瞬态传导抗扰**
 
 组合驾驶辅助数据记录系统以GB/T 28046.1—2011定义的工作模式3.1，按照表F.8规定的抗扰试验等级和GB 34660-2017中5.8的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-除电源线外的导线通过容性和感性耦合的电瞬态抗扰
+**F.3.6.6.2.2 除电源线外的导线通过容性和感性耦合的电瞬态抗扰**
 
 组合驾驶辅助数据记录系统以GB/T 28046.1—2011定义的工作模式3.1，按照GB/T 21437.3—2021中表B.1、表B.2中CCC和ICC模式以及等级Ⅲ的要求和3.4.2的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 对电磁辐射的抗扰
+###### F.3.6.6.3 对电磁辐射的抗扰
 
 组合驾驶辅助数据记录系统以GB/T 28046.1—2011定义的工作模式3.1, 按照GB 34660—2017中4.7的电波暗室法、大电流注入法的抗扰试验强度和5.7的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + - * 1. 无线电骚扰特性
+###### F.3.6.6.4 无线电骚扰特性
 
 组合驾驶辅助数据记录系统以GB/T 28046.1—2011定义的工作模式3.1，按照GB 34660—2017中5.5和5.6的方法进行试验。
 
 试验后，读取并检查组合驾驶辅助数据记录系统中存储的数据。
 
-* + 1. 信息安全试验
+#### F.3.7 信息安全试验
 
 对组合驾驶辅助数据记录系统的访问接口进行攻击操作，若无法实现篡改和非授权删除存储的数据，则试验通过，否则依次进行如下试验：对存储的数据进行篡改和非授权删除操作，并读取数据，若在读取时有篡改、非授权删除操作的记录，则试验通过，否则不通过。
 
-* 1. 基于CAN线通信的数据元素排列要求
+### F.4 基于CAN线通信的数据元素排列要求
 
-表F.10 基于CAN线通信的时间戳数据元素排列
+<div align="center">
+  <strong>表F.10 基于CAN线通信的时间戳数据元素排列</strong>
 
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA51 | 车辆识别代号(VIN） | 不适用 | A | 136 | 17 | 1 | 17 | 0~16 | ASCⅡ | 17个字节均填充 FF16 | 前16个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 实现组合驾驶辅助数据记录系统功能的硬件型号 | 不适用 | A | 160 | 20 | 1 | 20 | 17~36 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 实现组合驾驶辅助数据记录系统功能的硬件序列号 | 不适用 | A | 160 | 20 | 1 | 20 | 37~56 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 组合驾驶辅助系统软件版本号 | 不适用 | A | 160 | 20 | 1 | 20 | 57~76 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 组合驾驶辅助数据记录系统软件版本号 | 不适用 | A | 160 | 20 | 1 | 20 | 77~96 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
+<table>
+<thead>
+  <tr>
+    <th align="center">ID</th>
+    <th align="center">名称</th>
+    <th align="center">单位</th>
+    <th align="center">记录等级</th>
+    <th align="center">单个信号长度 bit</th>
+    <th align="center">单个信号长度 byte</th>
+    <th align="center">单个事件信号数量</th>
+    <th align="center">单个事件信号长度 byte</th>
+    <th align="center">字节序列号</th>
+    <th align="center">转化公式</th>
+    <th align="center">无法获取值</th>
+    <th align="center">无效值</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center" rowspan="13">0xFA51</td>
+    <td align="center">车辆识别代号（VIN）</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">136</td>
+    <td align="center">17</td>
+    <td align="center">1</td>
+    <td align="center">17</td>
+    <td align="center">0~16</td>
+    <td align="center">ASCII</td>
+    <td align="center">17个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前16个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">实现组合驾驶辅助数据记录系统功能的硬件型号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">17~36</td>
+    <td align="center">ASCII，字节数小于20时，应用0x20填充，填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">实现组合驾驶辅助数据记录系统功能的硬件序列号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">37~56</td>
+    <td align="center">ASCII，字节数小于20时，应用0x20填充，填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统软件版本号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">57~76</td>
+    <td align="center">ASCII，字节数小于20 时, 应用0x20填充, 填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助数据记录系统软件版本号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">77~96</td>
+    <td align="center">ASCII，字节数小于20 时, 应用0x20填充, 填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+    <tr>
+    <td align="center">事件类型编码</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">97</td>
+    <td align="left">0x07：锁定碰撞<br/>0x10：非锁定碰撞<br/>0x14：有碰撞风险<br/>0x15：组合驾驶辅助系统部分激活<br/>0x16：组合驾驶辅助系统激活<br/>0x17：组合驾驶辅助系统主动退出<br/>0x18：用户操纵组合驾驶辅助系统退出<br/>0x19：组合驾驶辅助系统发出HOR提示信号<br/>0x1a：组合驾驶辅助系统消除HOR提示或警告信号<br/>0x1b：组合驾驶辅助系统发出EOR提示信号<br/>0x1c：组合驾驶辅助系统消除EOR提示或警告信号<br/>0x1d：发出DCA<br/>0x1e：开始执行RMF<br/>0x1f：组合驾驶辅助系统严重失效<br/>0x20：车辆严重失效</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">累计行驶里程</td>
+    <td align="center">km</td>
+    <td align="center">A</td>
+    <td align="center">32</td>
+    <td align="center">4</td>
+    <td align="center">1</td>
+    <td align="center">4</td>
+    <td align="center">98~101</td>
+    <td align="center">E = N<br/>有效值范围：0-2000000</td>
+    <td align="center">4个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前3个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">年</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">102</td>
+    <td align="center">E=N+2000</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">月</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">103</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">日</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">104</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">时</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">105</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">分</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">106</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">秒</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">107</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="57">0xFA61<br/>0xFA62<br/>0xFA63<br/>0xFA64<br/>0xFA65</td>
+    <td align="center">车辆识别代号（VIN）</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">136</td>
+    <td align="center">17</td>
+    <td align="center">1</td>
+    <td align="center">17</td>
+    <td align="center">0~16</td>
+    <td align="center">ASCII</td>
+    <td align="center">17个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前16个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">实现组合驾驶辅助数据记录系统功能的硬件型号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">17~36</td>
+    <td align="center">ASCII，字节数小于20时，应用0x20填充，填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">实现组合驾驶辅助数据记录系统功能的硬件序列号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">37~56</td>
+    <td align="center">ASCII，字节数小于20时，应用0x20填充，填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统软件版本号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">57~76</td>
+    <td align="center">ASCII，字节数小于20时，应用0x20填充，填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助数据记录系统软件版本号</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">160</td>
+    <td align="center">20</td>
+    <td align="center">1</td>
+    <td align="center">20</td>
+    <td align="center">77~96</td>
+    <td align="center">ASCII，字节数小于20时，应用0x20填充，填充位在左边</td>
+    <td align="center">20个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前19个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">事件类型编码</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">97</td>
+    <td align="left">0x07：锁定碰撞<br/>0x10：非锁定碰撞<br/>0x14：有碰撞风险<br/>0x15：组合驾驶辅助系统部分激活<br/>0x16：组合驾驶辅助系统激活<br/>0x17：组合驾驶辅助系统主动退出<br/>0x18：用户操纵组合驾驶辅助系统退出<br/>0x19：组合驾驶辅助系统发出HOR提示信号<br/>0x1a：组合驾驶辅助系统消除HOR提示或警告信号<br/>0x1b：组合驾驶辅助系统发出EOR提示信号<br/>0x1c：组合驾驶辅助系统消除EOR提示或警告信号<br/>0x1d：发出DCA<br/>0x1e：开始执行RMF<br/>0x1f：组合驾驶辅助系统严重失效<br/>0x20：车辆严重失效</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">累计行驶里程</td>
+    <td align="center">km</td>
+    <td align="center">A</td>
+    <td align="center">32</td>
+    <td align="center">4</td>
+    <td align="center">1</td>
+    <td align="center">4</td>
+    <td align="center">98~101</td>
+    <td align="center">E = N<br/>有效值范围：0~2000000</td>
+    <td align="center">4个字节均填充 FF<sub>16</sub></td>
+    <td align="center">前3个字节填充 FF<sub>16</sub>，最后一个字节填充 FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">连续多次时间段事件的事件类型</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">102</td>
+    <td align="center">00x07：锁定碰撞<br/>0x10：非锁定碰撞<br/>0x14：有碰撞风险</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">连续多次时间段事件的事件起点时刻</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">1</td>
+    <td align="center">2</td>
+    <td align="center">103~104</td>
+    <td align="center">E = N<br/>时间应采用UTC时间，格式为自"1970-01-01 00:00:00"起经过的毫秒数</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">事件记录完整标志</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">105</td>
+    <td align="center">1：完整<br/>0：不完整</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">车辆速度</td>
+    <td align="center">km/h</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">106~505</td>
+    <td align="center">E = N<br/>范围：[0, 300 km/h]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">车辆横向加速度</td>
+    <td align="center">m/s²</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">506~905</td>
+    <td align="center">E = N - 3000<br/>范围：[-3000 m/s², 3000 m/s²]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">车辆纵向加速度</td>
+    <td align="center">m/s²</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">906~1305</td>
+    <td align="center">E = N - 3000<br/>范围：[-3000 m/s², 3000 m/s²]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">车辆横摆角速度</td>
+    <td align="center">°/s</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">40</td>
+    <td align="center">80</td>
+    <td align="center">1306~1385</td>
+    <td align="center">E = N×0.1 - 3000<br/>范围：[-3000 °/s, 3000 °/s²]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">车辆侧倾角速度</td>
+    <td align="center">°/s</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">40</td>
+    <td align="center">80</td>
+    <td align="center">1336~1465</td>
+    <td align="center">E = N×0.1 - 3000<br/>范围：[-3000°/s, 3000°/s]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">航向角</td>
+    <td align="center">°</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">40</td>
+    <td align="center">80</td>
+    <td align="center">1466~1545</td>
+    <td align="center">E = N - 180<br/>范围：[-180°, 180°]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">转向盘角度</td>
+    <td align="center">°</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">40</td>
+    <td align="center">80</td>
+    <td align="center">1546~1625</td>
+    <td align="center">E = N×5 - 250<br/>范围：[-250°, 250°]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的横向加速度</td>
+    <td align="center">m/s²</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">1626~1785</td>
+    <td align="center">E = N×0.5 - 20<br/>范围：[-20 m/s², 20 m/s²]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的转向盘转向角</td>
+    <td align="center">°</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">1786~1845</td>
+    <td align="center">E = N-780<br/>范围：[-780°, 780°]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的转向曲率</td>
+    <td align="center">1/m</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">1846~2005</td>
+    <td align="center">E = N×0.001 - 0.2<br/>范围：[-780°, 780°]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的前轮转角</td>
+    <td align="center">°</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">2006~2165</td>
+    <td align="center">E = N×0.1-80<br/>范围：[-80°, 80°]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的转向小齿轮转向角</td>
+    <td align="center">°</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">2166~2325</td>
+    <td align="center">E = N×0.005-163<br/>范围：[-163°, 164°]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的转向盘转向力矩</td>
+    <td align="center">Nm</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">2326~2485</td>
+    <td align="center">E = N×0.1-11<br/>范围：[-11Nm, 11Nm]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的转向盘转向角速率</td>
+    <td align="center">°/s</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">2486~2545</td>
+    <td align="center">E = N×10<br/>范围：[0°/s, 200°/s]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的车速</td>
+    <td align="center">km/h</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">2546~2705</td>
+    <td align="center">E= N<br/>范围：[0,300 km/h]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的纵向加速度</td>
+    <td align="center">m/s²</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">2706~2865</td>
+    <td align="center">E = N×0.5 - 20<br/>范围：[-20 m/s², 20 m/s²]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的加速踏板开度比例</td>
+    <td align="center">%</td>
+    <td align="center">B</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">80</td>
+    <td align="center">80</td>
+    <td align="center">2866~2945</td>
+    <td align="center">E = N<br/>范围：[0%, 100%]</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的刹车踏板开度比例</td>
+    <td align="center">%</td>
+    <td align="center">B</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">80</td>
+    <td align="center">80</td>
+    <td align="center">2946~3025</td>
+    <td align="center">E = N<br/>范围：[0%~100%]</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的驱动转矩</td>
+    <td align="center">Nm</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">3026~3185</td>
+    <td align="center">E = N-1000<br/>范围：[-1000Nm, 1000Nm]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的驱动转速</td>
+    <td align="center">rpm</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">3186~3345</td>
+    <td align="center">E = N×100-50000<br/>范围：[-50000rpm, 200000rpm]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的轮端扭矩</td>
+    <td align="center">Nm</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">3346~3505</td>
+    <td align="center">E = N-32767<br/>范围：[-32767Nm, 32768 Nm]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的制动主缸压力</td>
+    <td align="center">MPa</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">3506~3665</td>
+    <td align="center">E=N<br/>范围：[0, 12MPa]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的挡位</td>
+    <td align="center">不适用</td>
+    <td align="center">B</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">80</td>
+    <td align="center">80</td>
+    <td align="center">3666~3745</td>
+    <td align="center">1：P 挡<br/>2：R 挡<br/>3：N 挡<br/>4：D挡</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的车辆灯光状态</td>
+    <td align="center">不适用</td>
+    <td align="center">B</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">80</td>
+    <td align="center">160</td>
+    <td align="center">3746~3905</td>
+    <td align="left">自左向右每位表示灯光的开关状态，00表示关闭，01表示打开，10表示告警，11表示无效：<br/>bit 0-1：自适应照明系统<br/>bit 2-3：近光灯<br/>bit 4-5：远光灯<br/>bit 6-7：危险警示灯<br/>bit 8-9：左转向灯<br/>bit 10-11：右转向灯</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">组合驾驶辅助系统请求的车辆雨刮状态</td>
+    <td align="center">不适用</td>
+    <td align="center">B</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">80</td>
+    <td align="center">80</td>
+    <td align="center">3906~3985</td>
+    <td align="center">1：开启<br/>0：关闭</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">感知目标物ID</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">3986~4385</td>
+    <td align="center">E = N</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">感知目标物类型</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">4386~4785</td>
+    <td align="left">0x01：弱势道路参与者<br/>0x02：小型车<br/>0x03：大型车<br/>0x04：其他</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">感知目标物相对位置（X向）</td>
+    <td align="center">m</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">4786~5185</td>
+    <td align="center">E = N×0.5-1500；<br/>范围：[-1500m, 1500m]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">感知目标物相对位置（Y向）</td>
+    <td align="center">m</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">5186~5585</td>
+    <td align="center">E = N×0.5-1000；<br/>范围：[-1000m, 1000m]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">感知目标物相对速度（X向）</td>
+    <td align="center">km/h</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">5586~5985</td>
+    <td align="center">E = N×0.1-300；<br/>范围：[-300km/h, 300km/h]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">感知目标物相对速度（Y向）</td>
+    <td align="center">km/h</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">200</td>
+    <td align="center">400</td>
+    <td align="center">5986~6385</td>
+    <td align="center">E = N×0.1-300；<br/>范围：[-300km/h, 300km/h]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">驾驶员是否系安全带</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">40</td>
+    <td align="center">40</td>
+    <td align="center">6386~6425</td>
+    <td align="left">0：未系安全带<br/>1：系安全带</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">驾驶员是否在驾驶位置</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">40</td>
+    <td align="center">40</td>
+    <td align="center">6426~6465</td>
+    <td align="center">0：否<br/>1：是</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">驾驶员是否脱手</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">40</td>
+    <td align="center">40</td>
+    <td align="center">6466~6505</td>
+    <td align="center">0：否<br/>1：是</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">驾驶员是否视线脱离</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">40</td>
+    <td align="center">40</td>
+    <td align="center">6506~6545</td>
+    <td align="center">0：否<br/>1：是</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">加速踏板开度</td>
+    <td align="center">%</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">40</td>
+    <td align="center">40</td>
+    <td align="center">6546~6585</td>
+    <td align="center">E = N<br/>范围：[0%, 100%]</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">制动踏板开度<sup>a, b</sup></td>
+    <td align="center">%</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">40</td>
+    <td align="center">40</td>
+    <td align="center">6586~6625</td>
+    <td align="center">E = N<br/>范围：[0%, 100%]</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">输入转向扭矩<sup>d</sup></td>
+    <td align="center">Nm</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">40</td>
+    <td align="center">80</td>
+    <td align="center">6626~6705</td>
+    <td align="center">E = N×0.1<br/>范围：[-10, 10Nm]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">系统激活后用户设置巡航车速</td>
+    <td align="center">km/h</td>
+    <td align="center">A</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">40</td>
+    <td align="center">80</td>
+    <td align="center">6706~6785</td>
+    <td align="center">E = N<br/>范围：[0, 240km/h]</td>
+    <td align="center">FFFF<sub>16</sub></td>
+    <td align="center">FFFE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">年</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">6786</td>
+    <td align="center">E=N+2000</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">月</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">6787</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">日</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">6788</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">时</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">6789</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">分</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">6790</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">秒</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center">8</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">6791</td>
+    <td align="center">E=N</td>
+    <td align="center">FF<sub>16</sub></td>
+    <td align="center">FE<sub>16</sub></td>
+  </tr>
+  <tr>
+    <td align="center">外部图像</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center">80</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">外部视频</td>
+    <td align="center">不适用</td>
+    <td align="center">A</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center">80</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+</tbody>
+</table>
 
-表F.10（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节 序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA51 | 事件类型编码 | 不适用 | A | 8 | 1 | 1 | 1 | 97 | 0x07： 锁定碰撞  0x10：非锁定碰撞  0x14：有碰撞风险  0x15：组合驾驶辅助系统部分激活  0x16：组合驾驶辅助系统激活  0x17：组合驾驶辅助系统主动退出  0x18：用户操纵组合驾驶辅助系统退出  0x19：组合驾驶辅助系统发出HOR提示信号  0x1a：组合驾驶辅助系统消除HOR提示或警告信号  0x1b：组合驾驶辅助系统发出EOR提示信号  0x1c：组合驾驶辅助系统消除EOR提示或警告信号  0x1d：发出DCA  0x1e：开始执行RMF  0x1f：组合驾驶辅助系统严重失效  0x20：车辆严重失效 | FF16 | FE16 |
-
-表F.10（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA51 | 累计行驶里程 | km | A | 32 | 4 | 1 | 4 | 98~101 | E = N  有效值范围：0-2000000 | 4个字节均填充 FF16 | 前3个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 年 | 不适用 | A | 8 | 1 | 1 | 1 | 102 | E=N+2000 | FF16 | FE16 |
-| 月 | 不适用 | A | 8 | 1 | 1 | 1 | 103 | E=N | FF16 | FE16 |
-| 日 | 不适用 | A | 8 | 1 | 1 | 1 | 104 | E=N | FF16 | FE16 |
-| 时 | 不适用 | A | 8 | 1 | 1 | 1 | 105 | E=N | FF16 | FE16 |
-| 分 | 不适用 | A | 8 | 1 | 1 | 1 | 106 | E=N | FF16 | FE16 |
-| 秒 | 不适用 | A | 8 | 1 | 1 | 1 | 107 | E=N | FF16 | FE16 |
-
-表F.11 基于CAN线通信的时间段数据元素排列
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA61  0xFA62  0xFA63  0xFA64  0xFA65 | 车辆识别代号(VIN） | 不适用 | A | 136 | 17 | 1 | 17 | 0~16 | ASCⅡ | 17个字节均填充 FF16 | 前16个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 实现组合驾驶辅助数据记录系统功能的硬件型号 | 不适用 | A | 160 | 20 | 1 | 20 | 17~36 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 实现组合驾驶辅助数据记录系统功能的硬件序列号 | 不适用 | A | 160 | 20 | 1 | 20 | 37~56 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 组合驾驶辅助系统软件版本号 | 不适用 | A | 160 | 20 | 1 | 20 | 57~76 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 组合驾驶辅助数据记录系统软件版本号 | 不适用 | A | 160 | 20 | 1 | 20 | 77~96 | ASCⅡ , 字节数小于20 时, 应用0x20填充, 填充位在左边 | 20个字节均填充FF16 | 前19个字节填充 FF16 , 最后一个字节填充 FE16 |
-
-表F.11（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信号长度  bit | 单个信号长度  byte | 单个事件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA61  0xFA62  0xFA63  0xFA64  0xFA65 | 事件类型编码 | 不适用 | A | 8 | 1 | 1 | 1 | 97 | 00x07： 锁定碰撞  0x10：非锁定碰撞  0x14：有碰撞风险  0x15：组合驾驶辅助系统部分激活  0x16：组合驾驶辅助系统激活  0x17：组合驾驶辅助系统主动退出  0x18：用户操纵组合驾驶辅助系统退出  0x19：组合驾驶辅助系统发出HOR提示信号  0x1a：组合驾驶辅助系统消除HOR提示或警告信号  0x1b：组合驾驶辅助系统发出EOR提示信号  0x1c：组合驾驶辅助系统消除EOR提示或警告信号  0x1d：发出DCA  0x1e：开始执行RMF  0x1f：组合驾驶辅助系统严重失效  0x20：车辆严重失效 | FF16 | FE16 |
-
-表F.11（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA61  0xFA62  0xFA63  0xFA64  0xFA65 | 累计行驶里程 | km | A | 32 | 4 | 1 | 4 | 98~101 | E = N  有效值范围：0-2000000 | 4个字节均填充 FF16 | 前3个字节填充 FF16 , 最后一个字节填充 FE16 |
-| 连续多次时间段事件的事件类型 | 不适用 | A | 8 | 1 | 1 | 1 | 102 | 00x07： 锁定碰撞  0x10：非锁定碰撞  0x14：有碰撞风险 | FF16 | FE16 |
-| 连续多次时间段事件的事件起点时刻 | 不适用 | A | 16 | 2 | 1 | 2 | 103~104 | E = N 时间应采用UTC0时间，格式为自“1970-01-01 00:00:00”起经过的毫秒数 | FFFF16 | FFFE16 |
-| 事件记录完整标志 | 不适用 | A | 8 | 1 | 1 | 1 | 105 | 1：完整  0：不完整 | FF16 | FE16 |
-| 车辆速度 | km/h | A | 16 | 2 | 200 | 400 | 106~505 | E = N 范围:[0,300 km/h] | FFFF16 | FFFE16 |
-| 车辆横向加速度 | m/s2 | A | 16 | 2 | 200 | 400 | 506~905 | E = N – 3000 范围：  [-3000 m/s2, 3000 m/s2] | FFFF16 | FFFE16 |
-| 车辆纵向加速度 | m/s2 | A | 16 | 2 | 200 | 400 | 906~1305 | E = N – 3000  范围：  [-3000 m/s2, 3000 m/s2] | FFFF16 | FFFE16 |
-| 车辆横摆角速度 | °/s | A | 16 | 2 | 40 | 80 | 1306~1385 | E = N×0.1 – 3000  范围：  [-3000 °/s, 3000 °/s 2] | FFFF16 | FFFE16 |
-
-表F.11（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA61  0xFA62  0xFA63  0xFA64  0xFA65 | 车辆侧倾角速度 | °/s | B | 16 | 2 | 40 | 80 | 1386~1465 | E = N×0.1 – 3000  范围：  [-3000 °/s, 3000 °/s] | FFFF16 | FFFE16 |
-| 航向角 | ° | B | 16 | 2 | 40 | 80 | 1466~1545 | E = N – 180  范围：  [-180°, 180°] | FFFF16 | FFFE16 |
-| 转向盘角度 | ° | A | 16 | 2 | 40 | 80 | 1546~1625 | E = N×5 – 250  范围：  [-250°, 250°] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的横向加速度 | m/s2 | B | 16 | 2 | 80 | 160 | 1626~1785 | E = N×0.5 – 20 范围：  [-20 m/s2, 20 m/s2] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的转向盘转向角 | ° | B | 16 | 2 | 80 | 160 | 1786~1845 | E = N-780 范围：  [-780°, 780°] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的转向曲率 | 1/m | B | 16 | 2 | 80 | 160 | 1846~2005 | E = N×0.001 - 0.2 范围：  [-780°, 780°] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的前轮转角 | ° | B | 16 | 2 | 80 | 160 | 2006~2165 | E = N×0.1-80 范围：  [-80°, 80°] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的转向小齿轮转向角 | ° | B | 16 | 2 | 80 | 160 | 2166~2325 | E = N×0.005-163 范围：  [-163°, 164°] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的转向盘转向力矩 | Nm | B | 16 | 2 | 80 | 160 | 2326~2485 | E = N×0.1-11 范围：  [-11Nm, 11Nm] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的转向盘转向角速率 | °/s | B | 16 | 2 | 80 | 160 | 2486~2545 | E = N×10  范围：  [0°/s, 200°/s] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的车速 | km/h | B | 16 | 2 | 80 | 160 | 2546~2705 | E= N 范围:[0,300 km/h] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的纵向加速度 | m/s2 | B | 16 | 2 | 80 | 160 | 2706~2865 | E = N×0.5 – 20 范围：  [-20 m/s2, 20 m/s2] | FFFF16 | FFFE16 |
-
-表F.11（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA61  0xFA62  0xFA63  0xFA64  0xFA65 | 组合驾驶辅助系统请求的加速踏板开度比例 | % | B | 8 | 1 | 80 | 80 | 2866~2945 | E = N 范围: [0%, 100%] | FF16 | FE16 |
-| 组合驾驶辅助系统请求的刹车踏板开度比例 | % | B | 8 | 1 | 80 | 80 | 2946~3025 | E = N 范围: [0%～100%] | FF16 | FE16 |
-| 组合驾驶辅助系统请求的驱动转矩 | Nm | B | 16 | 2 | 80 | 160 | 3026~3185 | E = N-1000 范围: [-1000Nm, 1000Nm] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的驱动转速 | rpm | B | 16 | 2 | 80 | 160 | 3186~3345 | E = N×100-50000 范围：  [-50000rpm,200000 rpm] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的轮端扭矩 | Nm | B | 16 | 2 | 80 | 160 | 3346~3505 | E = N-32767 范围：  [-32767Nm,32768 Nm] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的制动主缸压力 | MPa | B | 16 | 2 | 80 | 160 | 3506~3665 | E=N  范围：  [0,12MPa] | FFFF16 | FFFE16 |
-| 组合驾驶辅助系统请求的挡位 | 不适用 | B | 8 | 1 | 80 | 80 | 3666~3745 | 1:P挡  2:R挡  3:N挡  4:D挡 | FF16 | FE16 |
-| 组合驾驶辅助系统请求的车辆灯光状态 | 不适用 | B | 16 | 2 | 80 | 160 | 3746~3905 | 自左向右每位表示灯光的开关状态，00表示关闭，01表示打开，10表示异常，11表示无效；  bit 0-1：自适应照明系统  bit 2-3：近光灯  bit 4-5：远光灯  bit 6-7：危险警示灯  bit 8-9：左转向灯  bit 10-11：右转向灯 | FFFF16 | FFFE16 |
-
-表F.11（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA61  0xFA62  0xFA63  0xFA64  0xFA65 | 组合驾驶辅助系统请求的车辆雨刮状态 | 不适用 | B | 8 | 1 | 80 | 80 | 3906~3985 | 1：开启  0：关闭 | FF16 | FE16 |
-| 感知目标物ID | 不适用 | A | 16 | 2 | 200 | 400 | 3986~4385 | E = N | FFFF16 | FFFE16 |
-| 感知目标物类型 | 不适用 | A | 16 | 2 | 200 | 400 | 4386~4785 | 0x01: 弱势道路参与者  0x02：小型车  0x03：大型车  0X04：其他 | FFFF16 | FFFE16 |
-| 感知目标物相对位置  （X向） | m | A | 16 | 2 | 200 | 400 | 4786~5185 | E = N×0.5-1500 范围: [-1500m, 1500m] | FFFF16 | FFFE16 |
-| 感知目标物相对位置  （Y向） | m | A | 16 | 2 | 200 | 400 | 5186~5585 | E = N×0.5-1000 范围: [-1000m, 1000m] | FFFF16 | FFFE16 |
-| 感知目标物相对速度  （X向） | km/h | A | 16 | 2 | 200 | 400 | 5586~5985 | E = N×0.1-300 范围: [-300km/h, 300km/h] | FFFF16 | FFFE16 |
-| 感知目标物相对速度  （Y向） | km/h | A | 16 | 2 | 200 | 400 | 5986~6385 | E = N×0.1-300 范围: [-300km/h, 300km/h] | FFFF16 | FFFE16 |
-| 驾驶员是否系安全带 | 不适用 | A | 8 | 1 | 40 | 40 | 6386~6425 | 0：未系安全带  1：系安全带 | FF16 | FE16 |
-| 驾驶员是否在驾驶位置 | 不适用 | A | 8 | 1 | 40 | 40 | 6426~6465 | 0：否  1：是 | FF16 | FE16 |
-| 驾驶员是否脱手 | 不适用 | A | 8 | 1 | 40 | 40 | 6466~6505 | 0：否  1：是 | FF16 | FE16 |
-| 驾驶员是否视线脱离 | 不适用 | A | 8 | 1 | 40 | 40 | 6506~6545 | 0：否  1：是 | FF16 | FE16 |
-
-表F.11（续）
-
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ID | 名 称 | 单位 | 记录 等级 | 单个信  号长度  bit | 单个信  号长度  byte | 单个事  件信号  数量  个 | 单个事  件信号  长度  byte | 字节  序列号 | 转化公式 | 无法获取值 | 无效值 |
-| 0xFA61  0xFA62  0xFA63  0xFA64  0xFA65 | 加速踏板开度 | % | A | 8 | 1 | 40 | 40 | 6546~6585 | E = N 范围: [0%, 100%] | FF16 | FE16 |
-| 刹车踏板开度a，b | % | A | 8 | 1 | 40 | 40 | 6586~6625 | E = N 范围: [0%, 100%] | FF16 | FE16 |
-| 输入转向扭矩d | Nm | A | 16 | 2 | 40 | 80 | 6626~6705 | E = N×0.1 范围: [-10, 10Nm] | FFFF16 | FFFE16 |
-| 系统激活后用户设置巡航车速 | km/h | A | 16 | 2 | 40 | 80 | 6706~6785 | E = N 范围: [0, 240km/h] | FFFF16 | FFFE16 |
-| 年 | 不适用 | A | 8 | 1 | 1 | 1 | 6786 | E=N+2000 | FF16 | FE16 |
-| 月 | 不适用 | A | 8 | 1 | 1 | 1 | 6787 | E=N | FF16 | FE16 |
-| 日 | 不适用 | A | 8 | 1 | 1 | 1 | 6788 | E=N | FF16 | FE16 |
-| 时 | 不适用 | A | 8 | 1 | 1 | 1 | 6789 | E=N | FF16 | FE16 |
-| 分 | 不适用 | A | 8 | 1 | 1 | 1 | 6790 | E=N | FF16 | FE16 |
-| 秒 | 不适用 | A | 8 | 1 | 1 | 1 | 6791 | E=N | FF16 | FE16 |
-| 外部图像 | 不适用 | A |  |  | 80 |  |  |  |  |  |
-| 外部视频 | 不适用 | A |  |  | 80 |  |  |  |  |  |
+</div>
