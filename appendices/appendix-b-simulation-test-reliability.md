@@ -5,7 +5,7 @@
 仿真试验可信度评估框架与流程如图B.1所示，由建模与仿真管理、分析、验证与确认四个部分组成。
 
 <div align="center">
-  <img src="../images/figures/figure-b1.png" alt="图b1">
+  <img src="../images/figures/figure-b1.png" alt="图b1" style="width: 14cm">
   <br>
   <strong>图B.1 可信度评估框架与流程示意图</strong>
 </div>
@@ -98,7 +98,7 @@
 > c) 不需要遵守可信度评估。
 
 <div align="center">
-  <img src="../images/figures/figure-b2.jpg" alt="图b2">
+  <img src="../images/figures/figure-b2.jpg" alt="图b2" style="width: 14cm">
   <br>
   <strong>图B.2 关键性评估矩阵示意图</strong>
 </div>

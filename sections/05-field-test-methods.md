@@ -105,7 +105,7 @@
 **5.3.2** 试验车辆在系统激活状态下，以V<sub>smaxset</sub>为巡航车速沿试验道路稳定行驶后试验开始。试验开始30 s后试验结束。
 
 <div align="center">
-  <img src="../images/figures/figure-02.jpg" alt="图2">
+  <img src="../images/figures/figure-02.jpg" alt="图2" style="width: 14cm">
   <br>
   <strong>图2 预试验示意图</strong>
 </div>
@@ -125,7 +125,7 @@
 > b) 车辆经过解除限速标志后30 s。
 
 <div align="center">
-  <img src="../images/figures/figure-03.png" alt="图3">
+  <img src="../images/figures/figure-03.png" alt="图3" style="width: 14cm">
   <br>
   <strong>图3 限速试验示意图</strong>
 </div>
@@ -135,8 +135,8 @@
 **5.4.2.1** 如图4所示，在日间条件下，试验道路为一段直道连接一段弯道，其中直道曲率半径应大于或等于5 km，弯道的长度支持完成试验。弯道分为定曲率部分和变曲率部分，定曲率部分的曲率半径R<sub>BC</sub>，变曲率部分为直道和定曲率部分弯道的连接段，其曲率随弯道长度应呈线性变化，从0逐步增加到 1/R<sub>BC</sub>。
 
 <div align="center">
-  <img src="../images/figures/figure-04-01.png" alt="图4-1">
-  <img src="../images/figures/figure-04-02.png" alt="图4-2">
+  <img src="../images/figures/figure-04-01.png" alt="图4-1" style="width: 7cm">
+  <img src="../images/figures/figure-04-02.png" alt="图4-2" style="width: 7cm">
   <br>
   <strong>图4 弯道几何参数示意图</strong>
 </div>
@@ -180,7 +180,7 @@ S3——弯道总长度，S3 = S1 + S2。
 **5.4.3.4** 试验过程中换道过程触发位置与 A 位置间距的偏差为±0.5 m。
 
 <div align="center">
-  <img src="../images/figures/figure-05.png" alt="图5">
+  <img src="../images/figures/figure-05.png" alt="图5" style="width: 14cm">
   <br>
   <strong>图5 驾驶员触发的换道试验示意图</strong>
 </div>
@@ -198,7 +198,7 @@ S3——弯道总长度，S3 = S1 + S2。
 > b) 试验车辆跟随前方同车道低速车辆目标稳定行驶后20 s。
 
 <div align="center">
-  <img src="../images/figures/figure-06.png" alt="图6">
+  <img src="../images/figures/figure-06.png" alt="图6" style="width: 14cm">
   <br>
   <strong>图6 驾驶员确认的换道试验示意图</strong>
 </div>
@@ -216,7 +216,7 @@ S3——弯道总长度，S3 = S1 + S2。
 > b) 试验车辆跟随前方同车道低速车辆目标稳定行驶后20 s。
 
 <div align="center">
-  <img src="../images/figures/figure-07.png" alt="图7">
+  <img src="../images/figures/figure-07.png" alt="图7" style="width: 14cm">
   <br>
   <strong>图7 系统触发的换道试验示意图</strong>
 </div>
@@ -234,7 +234,7 @@ S3——弯道总长度，S3 = S1 + S2。
 **5.4.6.1.4** 试验过程中换道过程触发距离的上偏差为0 m，下偏差为-1 m。
 
 <div align="center">
-  <img src="../images/figures/figure-08.png" alt="图8">
+  <img src="../images/figures/figure-08.png" alt="图8" style="width: 14cm">
   <br>
   <strong>图8 相邻车道有干扰车辆的驾驶员触发的换道试验示意图</strong>
 </div>
@@ -356,7 +356,7 @@ $V_{vut}$ —— 试验车辆设置车速；
 $V_{vt}$ —— 车辆目标实际车速。
 
 <div align="center">
-  <img src="../images/figures/figure-09.png" alt="图9">
+  <img src="../images/figures/figure-09.png" alt="图9" style="width: 14cm">
   <br>
   <strong>图9 驾驶员触发的换道安全响应策略试验示意图</strong>
 </div>
@@ -424,7 +424,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > b) 试验车辆提示驾驶员确认换道意图。
 
 <div align="center">
-  <img src="../images/figures/figure-10.png" alt="图10">
+  <img src="../images/figures/figure-10.png" alt="图10" style="width: 14cm">
   <br>
   <strong>图10 相邻车道有干扰车辆的驾驶员确认的换道试验示意图</strong>
 </div>
@@ -442,7 +442,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > b) 试验车辆进入换道执行阶段。
 
 <div align="center">
-  <img src="../images/figures/figure-11.png" alt="图11">
+  <img src="../images/figures/figure-11.png" alt="图11" style="width: 14cm">
   <br>
   <strong>图11 相邻车道有干扰车辆的系统触发的换道试验示意图</strong>
 </div>
@@ -470,7 +470,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.6.5.5** 若系统ODD边界为隧道，该场景应在无隧道情况下测试并记录结果，且日间、夜间条件下均需测试。
 
 <div align="center">
-  <img src="../images/figures/figure-12.png" alt="图12">
+  <img src="../images/figures/figure-12.png" alt="图12" style="width: 14cm">
   <br>
   <strong>图12 直道侧翻车辆试验示意图</strong>
 </div>
@@ -548,7 +548,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 </div>
 
 <div align="center">
-  <img src="../images/figures/figure-13.png" alt="图13">
+  <img src="../images/figures/figure-13.png" alt="图13" style="width: 14cm">
   <br>
   <strong>图13 车辆目标切入试验示意图</strong>
 </div>
@@ -572,7 +572,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > d) 若试验车辆为除M₁类汽车外的类型，则距离交通锥TTC为3.0 s时仍无任何减速或转向动作。
 
 <div align="center">
-  <img src="../images/figures/figure-14.png" alt="图14">
+  <img src="../images/figures/figure-14.png" alt="图14" style="width: 14cm">
   <br>
   <strong>图14 交通锥探测与响应试验示意图</strong>
 </div>
@@ -594,7 +594,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > d) 若试验车辆为除M₁类汽车外的类型，则距离交通锥TTC为3.0 s时仍无任何减速或转向动作。
 
 <div align="center">
-  <img src="../images/figures/figure-15.png" alt="图15">
+  <img src="../images/figures/figure-15.png" alt="图15" style="width: 14cm">
   <br>
   <strong>图15 日间施工区域多目标交互试验示意图</strong>
 </div>
@@ -618,7 +618,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.7.3.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-16.png" alt="图16">
+  <img src="../images/figures/figure-16.png" alt="图16" style="width: 14cm">
   <br>
   <strong>图16 隔离墩探测与响应试验示意图</strong>
 </div>
@@ -642,7 +642,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.7.4.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-17.png" alt="图17">
+  <img src="../images/figures/figure-17.png" alt="图17" style="width: 14cm">
   <br>
   <strong>图17 防撞桶探测与响应试验示意图</strong>
 </div>
@@ -666,7 +666,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.8.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-18.jpg" alt="图18">
+  <img src="../images/figures/figure-18.jpg" alt="图18" style="width: 14cm">
   <br>
   <strong>图18 纸箱探测与响应试验示意图</strong>
 </div>
@@ -692,7 +692,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.9.1.5** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-19.png" alt="图19">
+  <img src="../images/figures/figure-19.png" alt="图19" style="width: 14cm">
   <br>
   <strong>图19 车速边界识别与响应试验示意图</strong>
 </div>
@@ -712,7 +712,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > b) 试验车辆不允许激活。
 
 <div align="center">
-  <img src="../images/figures/figure-20.png" alt="图20">
+  <img src="../images/figures/figure-20.png" alt="图20" style="width: 14cm">
   <br>
   <strong>图20 时间边界识别与响应试验示意图</strong>
 </div>
@@ -732,7 +732,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.10.1.2.2** 试验人员按照车辆制造商声明的方式触发换道过程，试验人员手握方向盘维持车辆行驶方向不变, 触发换道过程5 s后, 试验结束。
 
 <div align="center">
-  <img src="../images/figures/figure-21.png" alt="图21">
+  <img src="../images/figures/figure-21.png" alt="图21" style="width: 14cm">
   <br>
   <strong>图21 换道控制功能的方向盘干预试验示意图</strong>
 </div>
@@ -814,7 +814,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.11.1.1** 试验车辆在系统激活状态下，以60 km/h与V<sub>sminset</sub>中的较大值为巡航车速沿车道稳定行驶后试验开始，试验人员双手脱离方向盘直至试验车辆执行RMF，试验车辆停止5 s后，试验结束。
 
 <div align="center">
-  <img src="../images/figures/figure-22.png" alt="图22">
+  <img src="../images/figures/figure-22.png" alt="图22" style="width: 14cm">
   <br>
   <strong>图22 目标停车区域在本车道的RMF试验示意图</strong>
 </div>
@@ -828,7 +828,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.4.11.2.1.2** 试验车辆在系统激活状态下，以60 km/h与V<sub>sminset</sub>中的较大值为巡航车速沿车道稳定行驶后试验开始，试验人员双手脱离方向盘直至试验车辆执行RMF，试验车辆停止5 s后，试验结束，试验结束。
 
 <div align="center">
-  <img src="../images/figures/figure-23.png" alt="图23">
+  <img src="../images/figures/figure-23.png" alt="图23" style="width: 14cm">
   <br>
   <strong>图23 无干扰车辆试验示意图</strong>
 </div>
@@ -846,7 +846,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 3. 试验车辆进入换道执行阶段。
 
 <div align="center">
-  <img src="../images/figures/figure-24.png" alt="图24">
+  <img src="../images/figures/figure-24.png" alt="图24" style="width: 14cm">
   <br>
   <strong>图24 有干扰车辆试验示意图</strong>
 </div>
@@ -873,7 +873,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > d) 试验车辆未按预定路线驶出环岛。
 
 <div align="center">
-  <img src="../images/figures/figure-25.png" alt="图25">
+  <img src="../images/figures/figure-25.png" alt="图25" style="width: 14cm">
   <br>
   <strong>图25 环岛通行试验示意图</strong>
 </div>
@@ -891,7 +891,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > b) 试验车辆不能通过路口。
 
 <div align="center">
-  <img src="../images/figures/figure-26.png" alt="图26">
+  <img src="../images/figures/figure-26.png" alt="图26" style="width: 14cm">
   <br>
   <strong>图26 信号灯识别与响应试验示意图</strong>
 </div>
@@ -964,7 +964,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.4.1.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-27.png" alt="图27">
+  <img src="../images/figures/figure-27.png" alt="图27" style="width: 14cm">
   <br>
   <strong>图27 车辆目标弯道静止试验示意图</strong>
 </div>
@@ -1017,7 +1017,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.4.2.3** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-28.png" alt="图28">
+  <img src="../images/figures/figure-28.png" alt="图28" style="width: 14cm">
   <br>
   <strong>图28 车辆目标切出试验示意图</strong>
 </div>
@@ -1041,7 +1041,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > b) 试验车辆与车辆目标产生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-29.png" alt="图29">
+  <img src="../images/figures/figure-29.png" alt="图29" style="width: 14cm">
   <br>
   <strong>图29 十字路口冲突-车辆目标直行试验示意图</strong>
 </div>
@@ -1065,7 +1065,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.4.4.6** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-30.png" alt="图30">
+  <img src="../images/figures/figure-30.png" alt="图30" style="width: 14cm">
   <br>
   <strong>图30 十字路口冲突-车辆目标远端横穿试验示意图</strong>
 </div>
@@ -1089,13 +1089,13 @@ $V_{vt}$ —— 车辆目标实际车速。
 > d) 若试验车辆为除M₁类汽车外的类型，则距离车辆目标TTC为3.0 s时仍无任何减速或转向动作。
 
 <div align="center">
-  <img src="../images/figures/figure-31.png" alt="图31">
+  <img src="../images/figures/figure-31.png" alt="图31" style="width: 14cm">
   <br>
   <strong>图31 预设完成位置示意图</strong>
 </div>
 
 <div align="center">
-  <img src="../images/figures/figure-32.png" alt="图32">
+  <img src="../images/figures/figure-32.png" alt="图32" style="width: 14cm">
   <br>
   <strong>图32 绕行车辆试验示意图</strong>
 </div>
@@ -1113,13 +1113,13 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.5.1.4** 试验过程中换道过程触发位置与预设触发位置间距的偏差为±0.5 m。
 
 <div align="center">
-  <img src="../images/figures/figure-33.png" alt="图33">
+  <img src="../images/figures/figure-33.png" alt="图33" style="width: 14cm">
   <br>
   <strong>图33 预设触发位置和预设完成位置示意图</strong>
 </div>
 
 <div align="center">
-  <img src="../images/figures/figure-34.png" alt="图34">
+  <img src="../images/figures/figure-34.png" alt="图34" style="width: 14cm">
   <br>
   <strong>图34 驾驶员触发的换道的踏板式两轮摩托车安全响应试验示意图</strong>
 </div>
@@ -1143,7 +1143,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.5.2.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-35.png" alt="图35">
+  <img src="../images/figures/figure-35.png" alt="图35" style="width: 14cm">
   <br>
   <strong>图35 踏板式两轮摩托车目标弯道静止试验示意图</strong>
 </div>
@@ -1229,7 +1229,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.5.3.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-36.png" alt="图36">
+  <img src="../images/figures/figure-36.png" alt="图36" style="width: 14cm">
   <br>
   <strong>图36 踏板式两轮摩托车目标切入试验示意图</strong>
 </div>
@@ -1247,7 +1247,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.6.1.4** 试验过程中换道过程触发位置与预设触发位置间距的偏差为±0.5 m。
 
 <div align="center">
-  <img src="../images/figures/figure-37.png" alt="图37">
+  <img src="../images/figures/figure-37.png" alt="图37" style="width: 14cm">
   <br>
   <strong>图37 行人安全响应试验示意图</strong>
 </div>
@@ -1271,7 +1271,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.6.2.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-38.png" alt="图38">
+  <img src="../images/figures/figure-38.png" alt="图38" style="width: 14cm">
   <br>
   <strong>图38 儿童目标弯道静止试验示意图</strong>
 </div>
@@ -1295,7 +1295,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 > b) 试验车辆与儿童目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-39.png" alt="图39">
+  <img src="../images/figures/figure-39.png" alt="图39" style="width: 14cm">
   <br>
   <strong>图39 儿童目标远端穿行试验示意图</strong>
 </div>
@@ -1319,7 +1319,7 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.7.4** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-40.png" alt="图40">
+  <img src="../images/figures/figure-40.png" alt="图40" style="width: 14cm">
   <br>
   <strong>图40 自行车目标弯道静止试验示意图</strong>
 </div>
@@ -1345,13 +1345,13 @@ $V_{vt}$ —— 车辆目标实际车速。
 **5.5.8.5** 该试验场景应在夜间条件下重复测试并记录结果。
 
 <div align="center">
-  <img src="../images/figures/figure-41.png" alt="图41">
+  <img src="../images/figures/figure-41.png" alt="图41" style="width: 14cm">
   <br>
   <strong>图41 预设完成位置示意图</strong>
 </div>
 
 <div align="center">
-  <img src="../images/figures/figure-42.png" alt="图42">
+  <img src="../images/figures/figure-42.png" alt="图42" style="width: 14cm">
   <br>
   <strong>图42 绕行障碍物试验示意图</strong>
 </div>

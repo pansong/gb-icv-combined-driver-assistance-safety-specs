@@ -1502,7 +1502,7 @@ II型系统存储区域已满时，应满足如下存储覆盖要求：
 试验后，读取组合驾驶辅助数据记录系统记录的数据，组合驾驶辅助数据记录系统对于事件的触发应符合F.1.2.3.1和F.1.2.3.3的要求。
 
 <div align="center">
-  <img src="../images/figures/figure-f1.png" alt="图f1">
+  <img src="../images/figures/figure-f1.png" alt="图f1" style="width: 14cm">
   <br>
   <strong>图F.1 有碰撞风险事件试验场景示意图</strong>
 </div>

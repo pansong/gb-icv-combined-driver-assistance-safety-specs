@@ -845,7 +845,7 @@
 > b) 试验车辆与交通锥、静止车辆目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c1.jpg" alt="图c1">
+  <img src="../images/figures/figure-c1.jpg" alt="图c1" style="width: 14cm">
   <br>
   <strong>图C.1 夜间施工区域多目标交互试验示意图</strong>
 </div>
@@ -867,7 +867,7 @@
 > b) 试验车辆与水马发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c2.png" alt="图c2">
+  <img src="../images/figures/figure-c2.png" alt="图c2" style="width: 14cm">
   <br>
   <strong>图C.2 夜间施工区域改道试验示意图</strong>
 </div>
@@ -917,7 +917,7 @@
 > b) 试验车辆与纸箱、车辆目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c3.png" alt="图c3">
+  <img src="../images/figures/figure-c3.png" alt="图c3" style="width: 14cm">
   <br>
   <strong>图C.3 日间临时障碍物（纸箱）多目标交互试验示意图</strong>
 </div>
@@ -947,7 +947,7 @@
 > b) 试验车辆与行人目标和车辆目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c4.png" alt="图c4">
+  <img src="../images/figures/figure-c4.png" alt="图c4" style="width: 14cm">
   <br>
   <strong>图C.4 日间多目标直道静止试验示意图</strong>
 </div>
@@ -1005,7 +1005,7 @@
 > b) 试验车辆与车辆目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c5.png" alt="图c5">
+  <img src="../images/figures/figure-c5.png" alt="图c5" style="width: 14cm">
   <br>
   <strong>图C.5 夜间前方车辆目标紧急制动试验示意图</strong>
 </div>
@@ -1029,7 +1029,7 @@
 > b) 试验车辆与儿童目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c6.png" alt="图c6">
+  <img src="../images/figures/figure-c6.png" alt="图c6" style="width: 14cm">
   <br>
   <strong>图C.6 日间儿童目标横穿试验示意图</strong>
 </div>
@@ -1061,7 +1061,7 @@
 > b) 试验车辆与自行车目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c7.png" alt="图c7">
+  <img src="../images/figures/figure-c7.png" alt="图c7" style="width: 14cm">
   <br>
   <strong>图C.7 日间自行车目标横穿被车辆目标遮挡试验示意图</strong>
 </div>
@@ -1091,7 +1091,7 @@
 > b) 试验车辆与车辆目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c8.png" alt="图c8">
+  <img src="../images/figures/figure-c8.png" alt="图c8" style="width: 14cm">
   <br>
   <strong>图C.8 隧道内存在侧翻车辆多目标交互试验示意图</strong>
 </div>
@@ -1113,7 +1113,7 @@
 > b) 试验车辆与车辆目标发生碰撞。
 
 <div align="center">
-  <img src="../images/figures/figure-c9.png" alt="图c9">
+  <img src="../images/figures/figure-c9.png" alt="图c9" style="width: 14cm">
   <br>
   <strong>图C.9 隧道内有斜置车辆试验示意图</strong>
 </div>
