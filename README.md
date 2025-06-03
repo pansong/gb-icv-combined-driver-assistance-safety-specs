@@ -40,6 +40,10 @@
 
 - [附录F （规范性） 数据记录要求](appendices/appendix-f-data-recording-requirements.md)
 
+- [免责声明 / Disclaimer](#免责声明--disclaimer)
+
+- [使用说明 / Usage](#使用说明--usage)
+
 ## 前言
 
 本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。
