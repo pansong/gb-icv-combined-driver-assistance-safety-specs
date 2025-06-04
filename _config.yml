@@ -1,0 +1,7 @@
+# 如果你使用的是GitHub Pages默认主题
+theme: jekyll-theme-minimal
+
+# 添加数学公式支持
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
