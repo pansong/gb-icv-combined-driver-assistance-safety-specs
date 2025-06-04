@@ -367,11 +367,10 @@ $V_{vt}$ —— 车辆目标实际车速。
 
 ②——车辆目标侧目标车道边线。
 
-<p align="center">
+<div align="center">
   <strong>表3 V'<sub>sminset</sub>≤30 km/h的试验参数</strong>
-</p>
 
-<table align="center">
+<table>
 <thead>
   <tr>
     <th align="center">试验车辆设置车速<br/>km/h</th>
