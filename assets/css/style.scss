@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 表格居中样式 */
+div[align="center"] {
+  text-align: center;
+}
+
+div[align="center"] table {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+/* 确保公式正常显示 */
+.language-plaintext {
+  display: inline-block;
+}
