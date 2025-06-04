@@ -1,40 +1,22 @@
 ---
 ---
 
----
----
-
 @import "{{ site.theme }}";
 
-/* 表格居中和宽度调整 */
+/* 表格居中 */
 div[align="center"] {
   text-align: center;
-  max-width: 100%;
 }
 
 div[align="center"] table {
   margin-left: auto;
   margin-right: auto;
   display: table;
-  width: 90%;  /* 表格占页面宽度的90% */
-  max-width: 1000px;  /* 最大宽度限制 */
-}
-
-/* 表格单元格内边距 */
-div[align="center"] table td,
-div[align="center"] table th {
-  padding: 10px 20px;  /* 增加内边距让内容更舒适 */
 }
 
 /* 表格标题居中 */
 div[align="center"] strong {
   display: block;
   text-align: center;
-  margin-bottom: 15px;
-  font-size: 1.1em;  /* 稍微放大标题 */
-}
-
-/* 整体内容区域宽度调整（可选） */
-.main-content {
-  max-width: 80rem;  /* 增加主内容区域宽度 */
+  margin-bottom: 10px;
 }
